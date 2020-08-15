@@ -2,6 +2,12 @@
 Here I will share my notes I developed during the "Applied Data Science with Python Specialization" -- respecting the  Coursera's Code Sharing Policy.
 
 ---
+
+### General Description
+
+The code `Evaluation_ML.ipynb` has the different evaluation methods to measure the performance of a model; some of those methods are ROC curve, AUC, Micro and Macro-Average, and more; by using `sklearn`. 
+
+---
 ### License
 
 This project is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) -- 
