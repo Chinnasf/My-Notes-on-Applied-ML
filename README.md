@@ -5,7 +5,7 @@ Here I will share my notes I developed during the "Applied Data Science with Pyt
 
 ### General Description
 
-The code `Evaluation_ML.ipynb` has the different evaluation methods to measure the performance of a model; some of those methods are ROC curve, AUC, Micro and Macro-Average, and more; by using `sklearn`. 
+`Evaluation_ML.ipynb` has the different evaluation methods to measure the performance of a model; some of those methods are ROC curve, AUC, Micro and Macro-Average, and more; by using `sklearn`. 
 
 ---
 ### License
