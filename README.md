@@ -1,4 +1,4 @@
-# My-Notes-on-Applied-ML
+# Notes on Machine Learning
 
 Here, I am sharing the notes I am developing of my Machine Learning lecture at Universiteit Gent, taken in 2022.
 
