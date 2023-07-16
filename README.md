@@ -1,6 +1,6 @@
 # Notes on Machine Learning
 
-Here, I am sharing the notes I am developing of my Machine Learning lecture at Universiteit Gent, taken in 2022.
+I am sharing [the notes](https://github.com/Chinnasf/My-Notes-on-Applied-ML/blob/master/Machine_Learning_UGent_Lecture_Notes.pdf) I am developing from my Machine Learning lecture at Universiteit Gent, taken in 2022.
 
 The reader will also find the notes I developed during the [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) -- respecting Coursera's Code Sharing Policy. Images and screenshots come from the courses unless otherwise specified. This course was taken in 2020.
 
