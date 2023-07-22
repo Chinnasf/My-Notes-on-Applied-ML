@@ -20,4 +20,4 @@ see the [LICENSE](https://github.com/Chinnasf/My-Notes-on-Applied-ML/blob/master
 
 ### Acknowledgements
 
-These notes were possible thanks to the instructors of the specialization offered by the University of Michigan through Coursera.
+These notes were possible thanks to the instructors of the specialization offered by the University of Michigan through Courser, and UGent.
