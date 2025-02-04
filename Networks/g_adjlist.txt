@@ -1,5 +1,5 @@
-#/home/kchinas/mdanalysis_env/lib/python3.12/site-packages/ipykernel_launcher.py --f=/home/kchinas/.local/share/jupyter/runtime/kernel-v36550e4164ef7190ad2fe1a54dd93ccfd40249d8d.json
-# GMT Thu Jan 30 15:24:43 2025
+#/home/kchinas/mdanalysis_env/lib/python3.12/site-packages/ipykernel_launcher.py --f=/home/kchinas/.local/share/jupyter/runtime/kernel-v3bbb7d4c48f10d1dcf4d265f3d395daa194f2b4bc.json
+# GMT Tue Feb  4 15:58:28 2025
 # 
 0 1 2 3 5
 1 3 6
