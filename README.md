@@ -1,7 +1,7 @@
 # Notes on Machine Learning
 
 ### IMPORTANT (2025)
-I’m thrilled to share that I’ve been accepted to the Physics-Informed Neural Networks and Applications [Summer School at KTH](www.pinns.se) Royal Institute of Technology in Stockholm, Sweden, taking place from June 15–29, 2025! **I will be updating this repository afterwards.**.
+I’m thrilled to share that I’ve been accepted to the Physics-Informed Neural Networks and Applications [Summer School at KTH](https://pinns.se/) Royal Institute of Technology in Stockholm, Sweden, taking place from June 15–29, 2025! **I will be updating this repository afterwards.**.
 
 ### OLD DESCRIPTION (2022)
 I am sharing [the notes](https://github.com/Chinnasf/My-Notes-on-Applied-ML/blob/master/Machine_Learning_UGent_Lecture_Notes.pdf) I am developing from my Machine Learning lecture at Universiteit Gent, taken in 2022. These notes will later be updated.
