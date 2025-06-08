@@ -20,7 +20,7 @@ Decision Tree:
                                  │
                         ┌────────┴────────┐
                         │                 │
-                      YES               NO
+                      YES                NO
                         │                 │
         ┌─────────────────────────┐   ┌────────────────────────────┐
         │ Do you have many data   │   │ Is the function expensive  │
