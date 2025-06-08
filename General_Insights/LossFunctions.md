@@ -33,8 +33,8 @@ Decision Tree:
            │             │                  │         │
  ┌────────────────┐  ┌──────────────────┐ ┌────────┐ ┌─────────────────┐
  │ Use SGD,       │  │ Use BFGS / L-BFGS│ │ Use    │ │ Use evolutionary│
- │ Adam, RMSProp  │  │ or Newton method │ │ Bayesian│ │ or heuristic   │
- │ (first-order)  │  │ (second-order)   │ │ opt.    │ │ methods (GA, SA)│
+ │ Adam, RMSProp  │  │ or Newton method │ │Bayesian│ │ or heuristic    │
+ │ (first-order)  │  │ (second-order)   │ │opt.    │ │ methods (GA, SA)│
  └────────────────┘  └──────────────────┘ └────────┘ └─────────────────┘
 ```
 
