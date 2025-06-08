@@ -10,8 +10,10 @@ Quick Guide:
 | Non-Diff + Expensive        | **Bayesian Optimization**                                | Great for tuning black-box models              |
 | Non-Diff + Cheap            | **Genetic Algorithms, Simulated Annealing, Nelder-Mead** | Useful when gradients don’t exist or are noisy |
 
+
 Decision Tree:
 
+```
                    ┌────────────────────────────────────────┐
                    │   Do you have a differentiable loss?   │
                    └────────────────────────────────────────┘
@@ -34,5 +36,5 @@ Decision Tree:
  │ Adam, RMSProp  │  │ or Newton method │ │ Bayesian│ │ or heuristic   │
  │ (first-order)  │  │ (second-order)   │ │ opt.    │ │ methods (GA, SA)│
  └────────────────┘  └──────────────────┘ └────────┘ └─────────────────┘
-
+```
 
