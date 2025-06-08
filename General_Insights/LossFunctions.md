@@ -31,10 +31,28 @@ Decision Tree:
            │             │                  │         │
          YES            NO                YES        NO
            │             │                  │         │
- ┌────────────────┐  ┌──────────────────┐ ┌────────┐ ┌─────────────────┐
- │ Use SGD,       │  │ Use BFGS / L-BFGS│ │ Use    │ │ Use evolutionary│
- │ Adam, RMSProp  │  │ or Newton method │ │Bayesian│ │ or heuristic    │
- │ (first-order)  │  │ (second-order)   │ │opt.    │ │ methods (GA, SA)│
- └────────────────┘  └──────────────────┘ └────────┘ └─────────────────┘
+ ┌────────────────┐  ┌────────────────────┐┌────────┐ ┌─────────────────┐
+ │ Use SGD,       │  │ Use BFGS / L-BFGS  ││ Use    │ │ Use evolutionary│
+ │ Adam, RMSProp  │  │ or Newton method   ││Bayesian│ │ or heuristic    │
+ │ (first-order)  │  │ (second-order)     ││opt.    │ │ methods (GA, SA)│
+ └────────────────┘  └──────────┬─────────┘└────────┘ └─────────────────┘
+                                │
+                                │
+                                ▼
+                    ┌────────────────────────────┐
+                    │ Do you expect sparsity in  │
+                    │ the optimal parameters?    │
+                    └────────────────────────────┘
+                                │
+                         ┌──────┴──────┐
+                         │             │
+                       YES            NO
+                         │             │
+              ┌──────────────────┐   ┌──────────────────┐
+              │ Use Coordinate   │   │ Stick with BFGS  │
+              │ Descent (e.g.    │   │ or first-order   │
+              │ LASSO, L1-penal) │   │ methods          │
+              └──────────────────┘   └──────────────────┘
+
 ```
 
