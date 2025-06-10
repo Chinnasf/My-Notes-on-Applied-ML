@@ -1,0 +1,557 @@
+type,posteddate,transactiondate,currency,source,amount,vendor,memo,category,who,localcurrency
+inf,nan,2020-11-27,mxn,BBVA,18971.34,Suplari,Sueldo,Ingreso Inicial,Nosotros,nan
+out,nan,2020-11-28,mxn,NAN,-64.0,Beyond Sugar,Comida,Salidas,Nosotros,nan
+out,nan,2020-11-28,mxn,NAN,-145.0,Cocina Mía,Comida,Salidas,Nosotros,nan
+out,nan,2020-11-28,mxn,NAN,-100.0,Digital Art,Fotos,Maestria,Carlos,nan
+out,nan,2020-11-28,mxn,NAN,-620.0,Grillo,Comida,Salidas,Nosotros,nan
+out,nan,2020-11-28,mxn,NAN,-28.0,Tiendita,Comida,Salidas,Nosotros,nan
+out,nan,2020-11-28,mxn,NAN,-43.1,Uber,Viaje,Esencial,Karina,nan
+out,nan,2020-11-29,mxn,NAN,-5865.0,Amazon,Celular Xiaomi,Esencial,Carlos,nan
+inf,nan,2020-11-29,mxn,BBVA,11260.49,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2020-11-29,mxn,NAN,-131.2,Uber,Comida,Esencial,Carlos,nan
+out,nan,2020-11-29,mxn,NAN,-76.53,Uber,Viaje,Esencial,Nosotros,nan
+out,nan,2020-12-02,mxn,NAN,-190.0,Luis,Gas,Esencial,Carlos,nan
+out,nan,2020-12-02,mxn,NAN,-45.0,Luis,Comida,Esencial,Carlos,nan
+out,nan,2020-12-02,mxn,NAN,-45.0,Pastelería OK,Comida,Salidas,Carlos,nan
+inf,nan,2020-12-02,mxn,BBVA,4500.0,Taller 1+1,Sueldo,BBVA Karina,Carlos,nan
+out,nan,2020-12-03,mxn,NAN,-1527.84,Hospital Puerta de Hierro Sur,Rayos X,Accidente,Karina,nan
+out,nan,2020-12-06,mxn,NAN,-5.0,Personita,Propina,Donaciones,Karina,nan
+out,nan,2020-12-06,mxn,NAN,-5.0,Plaza la Rioja,Estacionamiento,Esencial,Karina,nan
+out,nan,2020-12-07,mxn,NAN,-2050.0,Adriana (Mamá),Deuda,Deuda,Karina,nan
+out,nan,2020-12-07,mxn,NAN,-298.0,Farmacias Guadalajara,Comida,Esencial,Carlos,nan
+out,nan,2020-12-07,mxn,NAN,-419.0,MercadoLibre,Funda Xiaomi,Cuidados Personales,Carlos,nan
+inf,nan,2020-12-07,mxn,cash,1500.0,Taller 1+1,Sueldo,Efectivo,Carlos,nan
+out,nan,2020-12-07,mxn,BBVA,-100.0,Telcel,Recarga,Esencial,Carlos,nan
+out,nan,2020-12-10,mxn,NAN,-368.0,Darjeeling,Comida,Salidas,Nosotros,nan
+out,nan,2020-12-10,mxn,NAN,-200.0,Movistar,Recarga,Esencial,Karina,nan
+out,nan,2020-12-11,mxn,NAN,-126.0,Farmacias Guadalajara,Comida,Esencial,Carlos,nan
+out,nan,2020-12-12,mxn,NAN,-120.0,No Vendor Provided,Propina,Donaciones,Carlos,nan
+out,nan,2020-12-12,mxn,NAN,-2.0,No Vendor Provided,Propina,Donaciones,Karina,nan
+out,nan,2020-12-13,mxn,NAN,-63.0,No Vendor Provided,Verduras,Esencial,Carlos,nan
+out,nan,2020-12-13,mxn,NAN,-145.0,Pastelería OK,Pastel,Salidas,Carlos,nan
+inf,nan,2020-12-15,mxn,BBVA,11642.07,Suplari,Sueldo,BBVA Karina,Karina,nan
+inf,nan,2020-12-16,mxn,BBVA,4846.8,Suplari,Aguinaldo,BBVA Karina,Karina,nan
+inf,nan,2020-12-16,mxn,cash,3000.0,Taller 1+1,Sueldo,Efectivo,Carlos,nan
+out,nan,2020-12-16,mxn,NAN,-307.0,Cafeto,Cena,Salidas,Nosotros,nan
+out,nan,2020-12-18,mxn,NAN,-87.0,DIDI,Comida,Salidas,Carlos,nan
+out,nan,2020-12-18,mxn,NAN,-38.0,No Vendor Provided,nan,Unknown,Carlos,nan
+out,nan,2020-12-18,mxn,NAN,-202.0,Uber Eats,Comida,Salidas,Nosotros,nan
+out,nan,2020-12-18,mxn,NAN,-15.0,Uber Eats,Propina,Donaciones,Nosotros,nan
+out,nan,2020-12-19,mxn,NAN,-90.0,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2020-12-19,mxn,NAN,-359.6,Old Navy,Ropa,Gustos Personales,Karina,nan
+out,nan,2020-12-19,mxn,NAN,-831.33,Plaza Punto Sur,Regalos,Familia / Amigos,Karina,nan
+out,nan,2020-12-19,mxn,NAN,-324.0,Sr. Stone,Comida,Salidas,Nosotros,nan
+out,nan,2020-12-20,mxn,NAN,-166.0,Internet,Servicios,Esencial,Carlos,nan
+out,nan,2020-12-20,mxn,BBVA,-200.0,Telcel,Recarga,Esencial,Karina,nan
+out,nan,2020-12-20,mxn,NAN,-22.0,Tiendita,Comida,Salidas,Carlos,nan
+out,nan,2020-12-21,mxn,NAN,-1246.46,Amazon,Regalos,Familia / Amigos,Carlos,nan
+out,nan,2020-12-21,mxn,NAN,-774.99,Amazon,Adaptador y MicroSD,Cuidados Personales,Carlos,nan
+out,nan,2020-12-21,mxn,NAN,-533.0,MercadoLibre,Regalos,Familia / Amigos,Carlos,nan
+out,nan,2020-12-23,mxn,NAN,-200.0,Movistar,Recarga,Esencial,Karina,nan
+out,nan,2020-12-23,mxn,NAN,-23.0,Tienda,Comida,Esencial,Carlos,nan
+inf,nan,2020-12-23,mxn,BBVA,3000.0,Taller 1+1,Sueldo,BBVA Karina,Carlos,nan
+out,nan,2020-12-23,mxn,NAN,-100.0,AT&T,Recarga,Deuda,Karina,nan
+out,nan,2020-12-23,mxn,NAN,-104.0,Papa Cabaña,Comida,Salidas,Carlos,nan
+out,nan,2020-12-24,mxn,NAN,-20.0,No Vendor Provided,Propina,Donaciones,Karina,nan
+out,nan,2020-12-24,mxn,NAN,-1572.0,Volaris,Vuelo Fin Año,Familia / Amigos,Nosotros,nan
+out,nan,2020-12-26,mxn,NAN,-150.0,Tiendita ,Regalo,Familia / Amigos,Karina,nan
+out,nan,2020-12-28,mxn,NAN,-485.74,Uber,Viaje a Aeropuerto ,Esencial,Karina,nan
+out,nan,2020-12-29,mxn,NAN,-119.0,Farmacias Similares,Alergia,Esencial,Karina,nan
+out,nan,2020-12-29,mxn,NAN,-79.0,Little Caesars,Regalo,Familia / Amigos,Carlos,nan
+out,nan,2020-12-29,mxn,NAN,-200.0,Oxxo,Regalo,Familia / Amigos,Carlos,nan
+out,nan,2020-12-29,mxn,NAN,-28.5,Oxxo,Comida,Familia / Amigos,Carlos,nan
+out,nan,2020-12-29,mxn,NAN,-10.0,Oxxo,Mentos,Salidas,Carlos,nan
+out,nan,2020-12-30,mxn,cash,-80.0,Farmacias Similares,Crema de Tatuaje,Cuidados Personales,Karina,nan
+out,nan,2020-12-30,mxn,NAN,-125.0,Oxxo,Comida,Salidas,Nosotros,nan
+out,nan,2020-12-31,mxn,NAN,-135.47,LimeWire,Licencia,Prestamo,Carlos,nan
+out,nan,2020-12-31,mxn,NAN,-2000.0,Adriana (Mamá),Deuda,Deuda,Karina,nan
+inf,nan,2020-12-31,mxn,BBVA,11233.0,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-01-01,mxn,NAN,-55.5,SEDENA,Agua y Vaporub,Familia / Amigos,Nosotros,nan
+out,nan,2021-01-03,mxn,NAN,-116.0,Oxxo,Cerveza,Familia / Amigos,Nosotros,nan
+out,nan,2021-01-05,mxn,NAN,-343.0,SEDENA,Comida,Salidas,Carlos,nan
+out,nan,2021-01-07,mxn,NAN,-843.14,Amazon,Amazfit 5 Band,Gustos Personales,Karina,nan
+out,nan,2021-01-07,mxn,NAN,-1120.53,Grunge Shoes,Black Boots,Gustos Personales,Karina,nan
+out,nan,2021-01-09,mxn,NAN,-145.75,Little Caesars,Comida,Deuda,Karina,nan
+out,nan,2021-01-09,mxn,NAN,-150.0,Ramen Pako,Comida,Salidas,Carlos,nan
+out,nan,2021-01-10,mxn,NAN,-130.0,Taquitos Naranja,Comida,Salidas,Carlos,nan
+out,nan,2021-01-11,mxn,NAN,-221.5,Farmacias Guadalajara,Comida,Esencial,Carlos,nan
+inf,nan,2021-01-11,mxn,cash,4000.0,Taller 1+1,Sueldo,Efectivo,Carlos,nan
+out,nan,2021-01-14,mxn,NAN,-100.0,Movistar,Recarga,Esencial,Karina,nan
+out,nan,2021-01-14,mxn,NAN,-144.0,Quin,Comida,Salidas,Carlos,nan
+out,nan,2021-01-15,mxn,NAN,-290.0,Cervecería Xana,Regalo,Familia / Amigos,Karina,nan
+inf,nan,2021-01-15,mxn,BBVA,11741.82,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-01-16,mxn,NAN,-183.56,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-17,mxn,NAN,-95.0,Vivero,Regalo,Familia / Amigos,Carlos,nan
+out,nan,2021-01-17,mxn,NAN,-100.0,Vivero,Palmera,Gustos Personales,Carlos,nan
+out,nan,2021-01-17,mxn,NAN,-534.0,Soriana,Despensa,Esencial,Carlos,nan
+out,nan,2021-01-17,mxn,NAN,-110.0,Nutriroy,Comida,Salidas,Carlos,nan
+out,nan,2021-01-18,mxn,BBVA,-100.0,Telcel,Recarga,Esencial,Carlos,nan
+out,nan,2021-01-19,mxn,NAN,-650.0,Jorge Vazquez Franco,Traducción Certificados a Inglés,Maestria,Karina,nan
+out,nan,2021-01-19,mxn,NAN,-200.0,Karla (Hermana),Prestamo,Familia / Amigos,Karina,nan
+out,nan,2021-01-19,mxn,NAN,-2350.0,Olguín & La Conte,Traducción Certificados a Frances,Maestria,Karina,nan
+out,nan,2021-01-20,mxn,NAN,-77.28,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-20,mxn,NAN,-71.0,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-21,mxn,NAN,-472.25,Luis,Vivienda,Esencial,Carlos,nan
+out,nan,2021-01-21,mxn,NAN,-150.0,Shana,Shampoo,Cuidados Personales,Karina,nan
+out,nan,2021-01-22,mxn,NAN,-75.08,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-23,mxn,NAN,-68.57,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-24,mxn,NAN,-86.45,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-24,mxn,BBVA,-500.0,Underline Custom Tattoo,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-01-25,mxn,NAN,-59.59,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-25,mxn,BBVA,-2350.0,Underline Custom Tattoo,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-01-25,mxn,NAN,-75.0,Farmacias Guadalajara,Chucheria ,Salidas,Nosotros,nan
+inf,nan,2021-01-25,mxn,BBVA,5000.0,Taller 1+1,Sueldo,BBVA Karina,Carlos,nan
+out,nan,2021-01-26,mxn,NAN,-4570.0,Hacienda Coytes,Relacion,Salidas,Nosotros,nan
+out,nan,2021-01-26,mxn,NAN,-20.0,Personita,Manzana con Chile,Donaciones,Karina,nan
+out,nan,2021-01-26,mxn,NAN,-73.81,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-26,mxn,NAN,-61.01,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-27,mxn,NAN,-72.97,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-27,mxn,NAN,-60.0,Youtube,Renta Pelicula,Salidas,Nosotros,nan
+out,nan,2021-01-28,mxn,NAN,-74.72,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-01-28,mxn,NAN,-15.0,Uber,Cancelacion de Viaje,Viajes,Carlos,nan
+out,nan,2021-01-28,mxn,NAN,-15.0,Personita,Labial,Donaciones,Karina,nan
+out,nan,2021-01-29,mxn,BBVA,-100.0,Telcel,Recarga,Esencial,Carlos,nan
+out,nan,2021-01-29,mxn,NAN,-65.0,Gobierno MX,Caseta,Esencial,Nosotros,nan
+out,nan,2021-01-29,mxn,NAN,-65.0,Gobierno MX,Caseta,Esencial,Nosotros,nan
+out,nan,2021-01-29,mxn,NAN,-315.7,Hacienda Coytes,Comida,Salidas,Nosotros,nan
+out,nan,2021-01-29,mxn,NAN,-100.0,Movistar,Recarga,Esencial,Karina,nan
+inf,nan,2021-01-29,mxn,BBVA,11329.31,Suplari,Sueldo ,BBVA Karina,Karina,nan
+out,nan,2021-01-30,mxn,NAN,-120.0,Adriana (Hermana),Comida,Salidas,Nosotros,nan
+out,nan,2021-01-30,mxn,NAN,-200.0,Adriana (Hermana),Gasolina,Esencial,Nosotros,nan
+out,nan,2021-01-31,mxn,NAN,-200.0,Amazon,Protector Teclado Mac,Cuidados Personales,Karina,nan
+out,nan,2021-02-01,mxn,BBVA,-6236.34,Amazon,Laptop y RAM (1ra mensualidad),Esencial,Carlos,nan
+out,nan,2021-02-01,mxn,NAN,-84.57,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-02-01,mxn,NAN,-65.49,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-02-02,mxn,NAN,-187.0,Power Bank Digital Life,Servicios,Cuidados Personales,Carlos,nan
+out,nan,2021-02-02,mxn,NAN,-119.0,Office Depot,Aire Comprimido,Cuidados Personales,Carlos,nan
+out,nan,2021-02-02,mxn,NAN,-144.0,Power Bank Digital Life,Pasta Térmica,Cuidados Personales,Carlos,nan
+out,nan,2021-02-02,mxn,NAN,-180.0,No Vendor Provided,Corte de Cabello,Cuidados Personales,Carlos,nan
+out,nan,2021-02-02,mxn,NAN,-180.0,No Vendor Provided,Corte de Cabello (Luis),Familia / Amigos,Carlos,nan
+out,nan,2021-02-03,mxn,NAN,-640.0,Rincón de Los Brujos,Café / Hidromiel,Salidas,Nosotros,nan
+out,nan,2021-02-03,mxn,BBVA,-50.0,Telcel,Recarga,Familia / Amigos,Karina,nan
+out,nan,2021-02-03,mxn,NAN,-85.18,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-02-05,mxn,NAN,-770.0,Volaris,GDL a CDMX,Esencial,Karina,nan
+out,nan,2021-02-05,mxn,NAN,-668.0,Volaris,CDMX a GDL,Esencial,Karina,nan
+out,nan,2021-02-07,mxn,NAN,-144.0,Oxxo,12 Modelo,Salidas,Nosotros,nan
+out,nan,2021-02-08,mxn,NAN,-200.0,Movistar,Recarga,Esencial,Karina,nan
+out,nan,2021-02-10,mxn,NAN,-88.5,SEDENA,Comida,Familia / Amigos,Nosotros,nan
+out,nan,2021-02-10,mxn,NAN,-1478.0,Plaza Toreo CDMX,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-02-10,mxn,NAN,-210.1,Farmacia Supernueva,Medicina y Comida,Cuidados Personales,Nosotros,nan
+inf,nan,2021-02-11,mxn,NAN,200.0,María Teresa Velázquez (Mamá),Ropa,Efectivo,Carlos,nan
+out,nan,2021-02-11,mxn,NAN,-1443.0,Plaza Perisur CDMX,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-02-12,mxn,NAN,-158.5,SEDENA,Comida,Familia / Amigos,Nosotros,nan
+out,nan,2021-02-13,mxn,NAN,-950.0,Salud Digna,Prueba PCR Covid,Esencial,Carlos,nan
+out,nan,2021-02-14,mxn,BBVA,-50.0,Telcel,Recarga,Esencial,Carlos,nan
+out,nan,2021-02-15,mxn,NAN,-15976.243,Casas Cambio de Moneda,Compra de Euros (compraventa euro a 23.63 MX),Maestria,Carlos,nan
+inf,nan,2021-02-15,mxn,BBVA,11741.9,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-02-15,mxn,BBVA,-6236.34,Amazon,Segunda Mensualidad Laptop,Esencial,Carlos,nan
+inf,nan,2021-02-16,mxn,NAN,10000.0,Carlos,Choque USA,BBVA Carlos,Carlos,nan
+inf,nan,2021-02-16,mxn,NAN,10000.0,Carlos,Choque USA,BBVA Karina,Carlos,nan
+out,nan,2021-02-16,eur,NAN,-10.0,Metro,Robo,Accidente,Carlos,nan
+out,nan,2021-02-16,mxn,BBVA,-499.0,Telcel,Recarga,Esencial,Carlos,nan
+out,nan,2021-02-18,mxn,NAN,-129.0,Shasa,Ropa,Gustos Personales,Karina,nan
+out,nan,2021-02-18,mxn,NAN,-750.0,EyePunkMX,Botas,Gustos Personales,Karina,nan
+out,nan,2021-02-18,mxn,NAN,-199.0,Mumuso,Humidificador,Gustos Personales,Karina,nan
+out,nan,2021-02-19,eur,NAN,-6.7,Farmacia,Medicamento,Accidente,Carlos,nan
+inf,nan,2021-02-19,eur,NAN,676.1,Carlos,Cambio de Moneda,Cash,Carlos,nan
+out,nan,2021-02-21,mxn,BBVA,-500.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-02-21,mxn,NAN,-280.0,Jorge Vazquez Franco,Traducción Certificado ,Maestria,Karina,nan
+out,nan,2021-02-21,mxn,NAN,-665.45,No Vendor Provided,Despensa,Esencial,Carlos,nan
+out,nan,2021-02-24,mxn,BBVA,-200.0,Kim Mora,Chelas,Deuda,Karina,nan
+out,nan,2021-02-25,mxn,NAN,-967.88,Airbnb,Visa Alemana CDMX,Maestria,Karina,nan
+out,nan,2021-02-26,eur,BBVA,-38.99,Amazon,Funda Tablet,Cuidados Personales,Carlos,nan
+inf,nan,2021-02-26,mxn,BBVA,6236.34,Amazon,Ultimo pago de laptop,Esencial,Carlos,nan
+out,nan,2021-02-26,eur,NAN,-3.0,Mercado,Sombrilla,Cuidados Personales,Carlos,nan
+out,nan,2021-02-26,mxn,BBVA,-4999.24,Minerva Monk's Inn,Renta de Cuarto Italia (200 €),Esencial,Carlos,200 (eur)
+out,nan,2021-02-26,eur,NAN,-13.0,Rocco Amato,Corte de Cabello,Cuidados Personales,Carlos,nan
+inf,nan,2021-02-26,mxn,BBVA,11913.6,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-02-26,mxn,BBVA,-381.71,Todis,Despensa (15.27 €),Esencial,Carlos,15.27 (eur)
+out,nan,2021-02-27,mxn,NAN,-359.0,Kim Mora,Salida con Kim y Pablo,Familia / Amigos,Karina,nan
+out,nan,2021-02-28,mxn,BBVA,-661.24,Amazon,Recon 70 Gaming Headset,Cuidados Personales,Karina,nan
+out,nan,2021-02-28,eur,NAN,-16.0,Farmacia,Bloqueador Solar,Cuidados Personales,Carlos,nan
+out,nan,2021-03-01,mxn,NAN,-1601.59,Viva Aerobus,Visa Alemana CDMX,Maestria,Karina,nan
+out,nan,2021-03-01,eur,NAN,-472.7,Iván Espejel Estrada,Pago Airbnb Italia,Deuda,Carlos,nan
+out,nan,2021-03-02,mxn,NAN,-1299.0,Blizzard ,Call of Duty,Gustos Personales,Carlos,nan
+out,nan,2021-03-02,mxn,NAN,-220.89,Uber,Viaje,Viajes,Nosotros,nan
+inf,nan,2021-03-03,eur,NAN,20.0,Calle,Calle,Encontrado,Carlos,nan
+out,nan,2021-03-03,mxn,BBVA,-5277.14,Minerva Monk's Inn,Renta,Esencial,Carlos,210 (eur)
+out,nan,2021-03-03,eur,NAN,-10.0,UNESCO,Donacion,Donaciones,Carlos,nan
+inf,nan,2021-03-05,mxn,BBVA,2500.0,Iván Espejel Estrada,Regalo de Cumpleaños (papa a Carlos),Familia / Amigos,Carlos,nan
+out,nan,2021-03-06,mxn,BBVA,-500.0,Underline Custom Tattoo,Tatuaje Karla,Prestamo,Karina,nan
+out,nan,2021-03-07,eur,NAN,-25.0,Vodafone,Linea Telefonica,Esencial,Carlos,nan
+out,nan,2021-03-07,eur,NAN,-100.0,Taxi,Viaje,Esencial,Carlos,nan
+out,nan,2021-03-07,eur,NAN,-4.0,Pizzeria Italiana,Comida,Esencial,Carlos,nan
+out,nan,2021-03-07,eur,NAN,-10.0,Cacio e Pepe,Comida,Esencial,Carlos,nan
+out,nan,2021-03-07,eur,NAN,-15.27,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-07,mxn,BBVA,-811.63,Carrefour,Despensa,Esencial,Carlos,31.96 (eur)
+out,nan,2021-03-07,eur,NAN,-10.0,No Vendor Provided,Comida,Esencial,Carlos,nan
+out,nan,2021-03-08,mxn,NAN,-6.0,Personita,Viene Viene,Donaciones,Karina,nan
+out,nan,2021-03-08,eur,Revolut,-8.79,Uber,Viaje,Esencial,Carlos,nan
+out,nan,2021-03-08,mxn,NAN,-200.0,Movistar,Recarga,Esencial,Karina,nan
+inf,2021-03-08,2021-03-08,eur,Revolut,8000.0,Erasmus Mundus,Beca,Revolut,Carlos,nan
+out,nan,2021-03-08,mxn,NAN,-90.0,Estacionamiento Prisciliano Sanchez,Estacionamiento,Salidas,Karina,nan
+out,nan,2021-03-09,eur,NAN,-29.94,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-09,eur,NAN,-12.5,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-09,eur,NAN,-11.79,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-09,mxn,BBVA,-3000.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-03-09,eur,NAN,-101.5,Postale Italiane,Permisos de Residencia,Esencial,Carlos,nan
+out,nan,2021-03-09,mxn,NAN,-125.16,Uber,Viaje,Gustos Personales,Karina,nan
+out,nan,2021-03-09,mxn,NAN,-106.27,Uber,Viaje,Gustos Personales,Karina,nan
+out,nan,2021-03-10,eur,NAN,-19.27,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-10,eur,NAN,-9.48,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-10,eur,NAN,-14.0,Rocch,Comida,Esencial,Carlos,nan
+inf,nan,2021-03-12,mxn,BBVA,11857.58,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-300.0,Tiendita ,Traje de Baño,Gustos Personales,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-419.0,Sea Master Restaurante,Comida,Salidas,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-25.0,Tiendita ,Comida,Salidas,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-16.5,Oxxo,Cepillo de Dientes,Cuidados Personales,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-829.0,Hotel Cabo Blanco,Hospedaje,Salidas,Karina,nan
+out,nan,2021-03-13,mxn,NAN,-20.0,El Rinconsito,Comida,Salidas,Karina,nan
+out,nan,2021-03-13,eur,NAN,-11.89,Coop,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-13,mxn,NAN,-5.0,Banda de Rock,Propina,Donaciones,Karina,nan
+out,nan,2021-03-14,mxn,NAN,-87.27,Uber,Scooters,Salidas,Carlos,nan
+out,nan,2021-03-14,mxn,NAN,-112.21,Uber,Scooters,Salidas,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-12.68,Todis,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-9.89,Pam,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-410.0,Minerva Monk's Inn,Renta,Esencial,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-16.91,Meta,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-15.0,Vodafone,Recarga,Esencial,Carlos,nan
+out,nan,2021-03-14,mxn,NAN,-30.0,Fondita en Melaque,Comida,Salidas,Karina,nan
+out,nan,2021-03-14,mxn,NAN,-120.5,Fondita en Melaque,Comida,Salidas,Karina,nan
+out,nan,2021-03-14,eur,NAN,-36.66,Coop,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-14,eur,NAN,-32.36,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-14,mxn,NAN,-120.0,Artesania David Tresso,Incienso / Porta-Incienso,Gustos Personales,Karina,nan
+out,nan,2021-03-14,mxn,NAN,-30.0,Helados La Michoacana,Comida,Salidas,Karina,nan
+out,nan,2021-03-15,mxn,BBVA,-2500.0,Karla (Hermana),Tatuaje Karla,Prestamo,Karina,nan
+out,nan,2021-03-15,mxn,NAN,-580.0,No Vendor Provided,"Desayunos, cubrebocas, etc",Familia / Amigos,Karina,nan
+out,nan,2021-03-15,mxn,NAN,-10.0,Pemex,Propina,Donaciones,Karina,nan
+out,nan,2021-03-15,mxn,NAN,-56.0,Pollo Crujiente,Comida,Salidas,Karina,nan
+out,nan,2021-03-16,mxn,NAN,-33.3,Office Depot,Impresio Papeles Visa,Maestria,Karina,nan
+out,nan,2021-03-16,mxn,NAN,-2000.0,Adriana (Mamá),Deuda General,Deuda,Karina,nan
+out,nan,2021-03-16,eur,NAN,-14.97,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-17,eur,NAN,-2.25,Carrefour,Comida,Esencial,Carlos,nan
+inf,nan,2021-03-17,mxn,BBVA,3000.0,Karla (Hermana),Tatuaje Karla,Prestamo,Karina,nan
+out,nan,2021-03-17,eur,BBVA,-26.33,Terapify,Psicología,Esencial,Carlos,nan
+out,nan,2021-03-18,mxn,NAN,-270.0,Adriana (Mamá),Prestamo,Deuda,Karina,nan
+out,nan,2021-03-18,eur,NAN,-5.0,Sapienza Università di Roma,Comida,Esencial,Carlos,nan
+out,nan,2021-03-19,mxn,BBVA,-225.0,Alquimia & Co.,Perforacion,Gustos Personales,Karina,nan
+inf,nan,2021-03-19,mxn,BBVA,500.0,Kim Mora,Cuidar a Michi,Familia / Amigos,Karina,nan
+out,nan,2021-03-20,mxn,NAN,-779.0,Lucky Seoul,Invite comida a mamá,Familia / Amigos,Karina,nan
+out,nan,2021-03-21,eur,NAN,-5.68,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-21,eur,NAN,-23.42,Todis,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-21,eur,NAN,-13.97,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-22,mxn,NAN,-817.76,Airbnb,Visa Alemana CDMX,Maestria,Karina,nan
+inf,nan,2021-03-22,mxn,NAN,967.88,Airbnb,Visa Alemana CDMX,BBVA Karina,Karina,nan
+out,nan,2021-03-23,eur,NAN,-1.5,Metro,Viaje,Esencial,Carlos,nan
+out,nan,2021-03-25,eur,NAN,-6.98,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-25,eur,NAN,-0.79,Carrefour,Comida,Esencial,Carlos,nan
+out,nan,2021-03-25,mxn,BBVA,-86.01,Uber,Scooters,Salidas,Carlos,3.85 (eur)
+out,nan,2021-03-26,mxn,NAN,-215.0,Sura,Comida,Salidas,Karina,nan
+out,nan,2021-03-26,mxn,NAN,-149.0,McCarthy's Irish Pub,Chelas,Salidas,Karina,nan
+out,nan,2021-03-26,eur,NAN,-12.91,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-26,eur,NAN,-14.46,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-03-26,mxn,NAN,-76.0,Farmacias Guadalajara,Comida,Familia / Amigos,Karina,nan
+out,nan,2021-03-28,mxn,BBVA,-898.0,Terapify,Terapia Psicológica,Cuidados Personales,Karina,nan
+out,nan,2021-03-28,mxn,NAN,-2425.75,Adriana (Mamá),Deuda General,Deuda,Karina,nan
+out,nan,2021-03-28,mxn,BBVA,-12730.18,Amazon,Tablet Samsung,Maestria,Karina,nan
+inf,2021-03-29,2021-03-28,eur,Revolut,1000.0,Erasmus Mundus,Beca,Revolut,Carlos,nan
+out,nan,2021-03-29,mxn,NAN,-94.55,Uber,Scooters,Viajes,Carlos,nan
+out,nan,2021-03-29,mxn,NAN,-69.0,Office Depot,Carpeta Papeles Visa,Maestria,Karina,nan
+out,nan,2021-03-29,mxn,NAN,-38.7,Office Depot,Imrpesión Papeles,Maestria,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-645.67,Airbnb,Renta ,Maestria,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-800.0,Dr. Victor Hugo Acosta,Cita Oftamología,Esencial,Karina,nan
+out,nan,2021-03-30,mxn,BBVA,-500.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-200.0,Movistar,Recarga ,Esencial,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-10.0,No Vendor Provided,Donativo Perritos,Donaciones,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-40.0,Oxxo,Kit Sanitización,Maestria,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-76.0,Starbucks,Café,Gustos Personales,Karina,nan
+out,nan,2021-03-30,mxn,NAN,-17.0,Uber,Propina,Donaciones,Karina,nan
+out,nan,2021-03-31,mxn,NAN,-357.98,Viva Aerobus,Selección de Asientos,Maestria,Karina,nan
+inf,nan,2021-03-31,mxn,BBVA,12267.98,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-04-01,mxn,BBVA,-203.07,Uber,Scooters,Viajes,Carlos,-8.46 (eur)
+out,nan,2021-04-01,mxn,NAN,-390.0,Péndulo,Termo,Gustos Personales,Karina,nan
+out,nan,2021-04-01,mxn,BBVA,-51.67,Uber,Scooters,Viajes,Carlos,-2.14 (eur)
+out,nan,2021-04-01,mxn,BBVA,-129.67,Uber,Scooters,Viajes,Carlos,-5.37 (eur)
+out,nan,2021-04-01,mxn,NAN,-10.0,No Vendor Provided,Donación,Donaciones,Karina,nan
+out,nan,2021-04-01,mxn,BBVA,-170.96,Uber,Scooters,Viajes,Carlos,-7.08 (eur)
+out,nan,2021-04-01,mxn,NAN,-520.0,Fedex,Envio de Visa,Maestria,Karina,nan
+out,nan,2021-04-01,eur,NAN,-24.56,Coop,Despensa,Esencial,Carlos,nan
+inf,nan,2021-04-01,mxn,NAN,918.38,Karina,Scooters tr a BBVA tarjeta,Viajes,Carlos,nan
+out,nan,2021-04-01,eur,NAN,-3.88,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-04-01,mxn,BBVA,-918.44,Carlos,Scooters,Viajes,Karina,38.4 (eur)
+out,nan,2021-04-02,mxn,NAN,-8740.97,Evelop,Vuelos Eramus,Maestria,Karina,nan
+out,nan,2021-04-02,mxn,NAN,-750.0,H&M,Abrigo,Gustos Personales,Karina,nan
+out,nan,2021-04-02,mxn,NAN,-2523.0,Iberia Airlines,Vuelos Eramus,Maestria,Karina,nan
+out,nan,2021-04-02,eur,NAN,-14.0,Vaticano,Regalos,Familia / Amigos,Carlos,nan
+out,nan,2021-04-03,mxn,NAN,-80.0,Ana Estefanía (Tía),Desayuno,Familia / Amigos,Karina,nan
+out,nan,2021-04-03,mxn,NAN,-100.0,Oxxo,Comida,Maestria,Karina,nan
+out,nan,2021-04-04,mxn,NAN,-9507.24,Airbnb,Stuttgart,Maestria,Karina,nan
+out,nan,2021-04-04,mxn,NAN,-722.77,Airbnb,Stuttgart,Maestria,Karina,nan
+out,nan,2021-04-04,eur,NAN,-1.55,Farmacia,Agua Oxigenada,Familia / Amigos,Carlos,nan
+out,nan,2021-04-05,mxn,NAN,-18.0,Office Depot,Plumón,Gustos Personales,Karina,nan
+out,nan,2021-04-05,eur,NAN,-15.0,Mercado,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-04-05,mxn,NAN,-303.59,Google,E-book,Gustos Personales,Karina,nan
+out,nan,2021-04-05,eur,NAN,-2.99,Carrefour,Te,Familia / Amigos,Carlos,nan
+out,nan,2021-04-07,mxn,NAN,-98.0,Log on,Aceites Olores,Gustos Personales,Karina,nan
+out,nan,2021-04-09,eur,NAN,-40.0,Mercado,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-04-11,eur,NAN,-4.0,Kabi,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-04-11,eur,NAN,-458.0,reMarkable,Tablet Remarkable,Maestria,Carlos,nan
+out,nan,2021-04-11,eur,NAN,-2.4,Sapienza Università di Roma,Cafe,Maestria,Carlos,nan
+out,nan,2021-04-12,mxn,NAN,-146.0,BBVA,Reposición Plástico,Accidente,Karina,nan
+out,nan,2021-04-14,mxn,BBVA,-449.0,Terapify,Terapia Psicológica,Esencial,Karina,nan
+inf,nan,2021-04-15,mxn,BBVA,138.49,Appen,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-04-15,mxn,NAN,-20.0,Estafeta,Devolucion Abrigo,Gustos Personales,Karina,nan
+out,nan,2021-04-15,eur,NAN,-435.0,Facebook,Cámara,Maestria,Carlos,nan
+out,nan,2021-04-15,mxn,BBVA,-500.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-04-15,eur,NAN,-1.5,Sapienza Università di Roma,Cafe,Maestria,Carlos,nan
+inf,nan,2021-04-15,mxn,BBVA,12670.7,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-04-16,mxn,BBVA,-3000.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-04-16,eur,NAN,-11.0,Personita,Propina,Donaciones,Carlos,nan
+out,nan,2021-04-16,mxn,NAN,-52.0,Hospital Puerta de Hierro,Estacionamiento,Esencial,Karina,nan
+out,nan,2021-04-18,eur,NAN,-3.0,Cafeteria Italiana,Cafe,Salidas,Carlos,nan
+out,nan,2021-04-18,eur,NAN,-4.0,Gelato Günther,Helado ,Salidas,Carlos,nan
+out,nan,2021-04-19,eur,NAN,-8.0,Aperitivo Café,Cafe,Salidas,Carlos,nan
+out,nan,2021-04-19,mxn,BBVA,-449.0,Terapify,Terapia Psicológica,Esencial,Carlos,nan
+out,nan,2021-04-20,mxn,NAN,-65.0,Starbucks,Cafe,Familia / Amigos,Karina,nan
+inf,nan,2021-04-21,mxn,BBVA,2000.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+out,nan,2021-04-21,eur,NAN,-1.5,No Vendor Provided,Canolli,Salidas,Carlos,nan
+out,nan,2021-04-21,mxn,BBVA,-145.92,Digili Pte Ltd.,Foto Pasaporte,Maestria,Karina,6.96 (usd)
+out,nan,2021-04-21,eur,NAN,-6.0,No Vendor Provided,Lasagna,Salidas,Carlos,nan
+out,nan,2021-04-22,mxn,NAN,-541.0,Soriana,Despensa,Familia / Amigos,Karina,nan
+out,nan,2021-04-22,eur,NAN,-7.5,Two Sizes,Comida,Salidas,Carlos,nan
+out,nan,2021-04-23,mxn,BBVA,-500.0,Indigo Studio,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-04-23,eur,Revolut,-2.48,No Vendor Provided,Pizza,Salidas,Carlos,nan
+out,nan,2021-04-24,eur,cash,-3.0,Gelato Günther,Helado ,Salidas,Carlos,nan
+out,nan,2021-04-24,eur,Revolut,-23.0,Rosso Eat Drink Stay,Comida,Salidas,Carlos,nan
+out,nan,2021-04-25,eur,cash,-6.0,Zafferino ,Spritz,Salidas,Carlos,nan
+out,nan,2021-04-25,eur,Revolut,-6.0,Cafe Eugenio,Cafe,Salidas,Carlos,nan
+out,nan,2021-04-25,mxn,BBVA,-720.0,EnviaFlores.com,Cumṕleaños Tere,Familia / Amigos,Karina,nan
+out,nan,2021-04-26,mxn,BBVA,-1548.58,Farmacias Guadalajara,Gotas para ojos,Ch. F. Familia,Karina,nan
+out,nan,2021-04-26,mxn,BBVA,-200.0,Movistar,Recarga,Esencial,Karina,nan
+out,nan,2021-04-26,eur,Revolut,-15.0,Ponentino Ristoranti a Trastevere,Comida,Salidas,Carlos,nan
+out,nan,2021-04-27,mxn,BBVA,-1213.54,Pug,Lentes de Sol,Gustos Personales,Carlos,nan
+out,nan,2021-04-28,eur,Revolut,-5.0,Cafe Stefan,Bebidas,Salidas,Carlos,nan
+inf,2021-04-29,2021-04-28,eur,Revolut,1000.0,Erasmus Mundus,Beca,Revolut,Carlos,nan
+out,nan,2021-04-28,eur,cash,-18.0,Marca da Bollo ,Papeles permiso de residencia,Salidas,Carlos,nan
+out,nan,2021-04-28,eur,Revolut,-7.5,Ocche,Comida,Salidas,Carlos,nan
+out,nan,2021-04-28,eur,cash,-8.0,Vaticano,Museo,Salidas,Carlos,nan
+out,nan,2021-04-29,eur,Revolut,-15.0,Grottino,Comida,Salidas,Carlos,nan
+out,nan,2021-04-29,eur,Revolut,-6.0,Ecchenio,Bebidas,Salidas,Carlos,nan
+inf,nan,2021-04-30,mxn,BBVA,2000.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+inf,nan,2021-04-30,mxn,BBVA,11357.58,Suplari,Sueldo,BBVA Karina,Karina,nan
+inf,nan,2021-04-30,mxn,BBVA,10230.01,Airbnb,Stuttgart,Maestria,Karina,nan
+out,nan,2021-05-01,mxn,BBVA,-518.02,Farmacias Guadalajara,Gotas para ojos,Ch. F. Familia,Karina,nan
+out,nan,2021-05-01,mxn,BBVA,-230.9,Okuma Sushi,Comida,Salidas,Karina,nan
+out,nan,2021-05-01,mxn,BBVA,-8696.81,Airbnb,Stuttgart,Maestria,Karina,nan
+out,nan,2021-05-01,mxn,BBVA,-1268.75,Airbnb,Madrid,Maestria,Karina,nan
+out,nan,2021-05-02,mxn,BBVA,-792.86,Airbnb,Madrid,Maestria,Karina,nan
+inf,nan,2021-05-02,mxn,BBVA,1268.75,Airbnb,Madrid (cancelacion),Maestria,Karina,nan
+out,nan,2021-05-02,mxn,BBVA,-284.05,Amazon,Funda Xiaomi,Cuidados Personales,Karina,nan
+out,nan,2021-05-02,eur,NAN,-6.5,Eucchenio,Cafe,Salidas,Carlos,nan
+out,nan,2021-05-02,mxn,cash,-8.0,Office Depot,Impresiones INE,Accidente,Karina,nan
+out,nan,2021-05-02,mxn,cash,-5.0,Personita,Propina,Donaciones,Karina,nan
+out,nan,2021-05-02,mxn,BBVA,-1956.99,Sam's Club,Despensa,Ch. F. Familia,Karina,nan
+out,nan,2021-05-03,mxn,BBVA,-1796.0,Terapify,Psicología,Esencial,Karina,nan
+out,nan,2021-05-03,mxn,BBVA,-431.53,Airbnb,Cancún,Maestria,Karina,nan
+inf,nan,2021-05-04,mxn,BBVA,431.53,Airbnb,Cancún Cancelación,Maestria,Karina,nan
+out,nan,2021-05-04,mxn,BBVA,-1638.0,Volaris,Vuelo Cancún,Maestria,Karina,nan
+out,nan,2021-05-06,mxn,BBVA,-185.0,Terrible Juan,café,Salidas,Karina,nan
+out,nan,2021-05-07,mxn,BBVA,-369.0,Miniso,cubrebocas y sombrilla,Cuidados Personales,Karina,nan
+out,nan,2021-05-07,eur,Revolut,-14.0,Tbone Station,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-5.0,Sorbillo,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-5.5,Wok a Walk,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,mxn,cash,-10.0,Punto Sur Plaza,Estacionamiento,Salidas,Karina,nan
+out,nan,2021-05-07,mxn,cash,-254.0,Pizzas Petra,pizza,Salidas,Karina,nan
+out,nan,2021-05-07,mxn,cash,-120.0,Ojo de Miel,Perforación,Gustos Personales,Karina,nan
+out,nan,2021-05-07,eur,Revolut,-2.5,Gelateria,Helado ,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,cash,-6.5,Bars,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-9.28,Conad,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-9.9,Cody,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,cash,-5.0,Cafe Circo,Cafe,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-6.5,Bars,Comida,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,cash,-5.0,Antigallery,Spritz,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,Revolut,-3.0,Amalfi,Helado,Salidas,Carlos,nan
+out,nan,2021-05-07,eur,cash,-3.49,Eustacchio,Cafe,Salidas,Carlos,nan
+out,nan,2021-05-08,mxn,cash,-15.0,Claro Fish Jr.,propina,Donaciones,Karina,nan
+out,nan,2021-05-09,mxn,BBVA,-455.0,Sushi La Paz,Sushi La Paz,Familia / Amigos,Karina,nan
+out,nan,2021-05-09,eur,Revolut,-3.0,Gunther,Helado,Salidas,Carlos,nan
+out,nan,2021-05-09,mxn,cash,-70.0,No Vendor Provided,mercado artesanal,Gustos Personales,Karina,nan
+out,nan,2021-05-09,eur,Revolut,-5.0,Cafe,Comida,Salidas,Carlos,nan
+out,nan,2021-05-09,eur,Revolut,-14.0,Fonci,Cema,Salidas,Carlos,nan
+out,nan,2021-05-09,eur,Revolut,-14.0,Caccio,Comida,Salidas,Carlos,nan
+out,nan,2021-05-10,eur,Revolut,-12.5,Erudito,Comida,Salidas,Carlos,nan
+out,nan,2021-05-10,eur,Revolut,-10.5,Feffo Caffe,Cafe,Salidas,Carlos,nan
+out,nan,2021-05-10,eur,Revolut,-3.0,Glitotti,Helado,Salidas,Carlos,nan
+out,nan,2021-05-13,eur,Revolut,-38.99,Uber,Bird Pass,Viajes,Carlos,nan
+out,nan,2021-05-13,mxn,BBVA,-200.0,Movistar,recarga,Esencial,Karina,nan
+out,nan,2021-05-13,mxn,cash,-10.0,Personita,Propina,Donaciones,Karina,nan
+out,nan,2021-05-13,eur,Revolut,-170.51,Tricount,Viaje,Viajes,Carlos,nan
+out,2021-06-24,2021-05-14,mxn,BBVA,449.0,Terapify,Psicologia,Esencial,Carlos,nan
+inf,nan,2021-05-14,mxn,BBVA,11864.68,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-05-14,mxn,BBVA,-473.0,café,Terrible Juan,Familia / Amigos,Karina,nan
+out,nan,2021-05-14,mxn,BBVA cr,-2228.68,French Government,CVEC Contribution,Maestria,Karina,92 (eur)
+out,nan,2021-05-15,mxn,BBVA,-2457.95,Amazon,Xiaomi Poco X3,Esencial,Karina,nan
+out,nan,2021-05-15,mxn,BBVA,-1800.0,LapTown,Reparación Mac,Accidente,Karina,nan
+out,nan,2021-05-15,eur,NAN,-8.95,Trenitalia,Viaje,Viajes,Carlos,nan
+out,nan,2021-05-16,mxn,BBVA,-250.0,Nayeli Garcia,Curso Alemán,Maestria,Karina,nan
+out,nan,2021-05-16,mxn,BBVA,-242.0,VeganTown,Comida,Salidas,Karina,nan
+out,nan,2021-05-16,eur,Revolut,-22.1,Farmacia,Medicamento,Accidente,Carlos,nan
+out,nan,2021-05-16,mxn,BBVA,-107.44,Alipay Singapore E-Commerce Pte. Ltd.,Keyboard Protector Dell G5-5590,Cuidados Personales,Karina,5.13 (usd)
+out,nan,2021-05-16,eur,Revolut,-4.5,Farmacia,Medicamento,Accidente,Carlos,nan
+out,nan,2021-05-17,eur,Revolut,-5.0,Sapienza Università di Roma,Comida,Esencial,Carlos,nan
+out,2021-06-24,2021-05-18,mxn,BBVA,480.0,Ana Flores Tattoo,Tatuaje,Gustos Personales,Karina,nan
+inf,2021-06-24,2021-05-18,mxn,BBVA cr,260.0,Salud Digna,Devolucion,Esencial,Karina,nan
+out,nan,2021-05-19,mxn,BBVA,-350.0,iPro,Laptop Analysis,Accidente,Karina,nan
+out,nan,2021-05-21,mxn,BBVA,-200.0,Arkana Tatto,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-05-21,mxn,cash,-100.0,Karla (Hermana),Prestamo,Ch. F. Familia,Karina,nan
+out,nan,2021-05-22,eur,Revolut,-5.0,Sapienza Università di Roma,Comida,Esencial,Carlos,nan
+out,nan,2021-05-22,eur,Revolut,-5.0,Portodiripetta,Cafe,Salidas,Carlos,nan
+inf,2021-06-24,2021-05-23,mxn,BBVA,9378.17,Airbnb,Stuttgart Airbnb,Maestria,Karina,nan
+out,nan,2021-05-23,eur,Revolut,-3.31,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-05-23,mxn,BBVA,-814.0,Grillo,Comida,Ch. F. Familia,Karina,nan
+out,nan,2021-05-23,mxn,cash,-200.0,No Vendor Provided,Anillos,Gustos Personales,Karina,nan
+out,nan,2021-05-23,mxn,cash,-4.0,Personita,Personita,Donaciones,Karina,nan
+out,nan,2021-05-23,eur,Revolut,-10.0,Recarga,Vodafone,Esencial,Carlos,nan
+out,nan,2021-05-23,eur,Revolut,-3.5,Sapienza Università di Roma,Comida,Esencial,Carlos,nan
+out,nan,2021-05-24,eur,Revolut,-4.38,Carrefour,Despensa,Esencial,Carlos,nan
+out,nan,2021-05-24,mxn,BBVA,-300.0,Arkana Tatto,Tatuaje,Gustos Personales,Karina,nan
+out,nan,2021-05-25,mxn,cash,-25.0,Hospital Puerta de Hierro,Estacionamiento,Esencial,Karina,nan
+out,nan,2021-05-25,mxn,BBVA,-406.0,iPro,Invoice,Accidente,Karina,nan
+inf,nan,2021-05-25,mxn,BBVA,350.0,iPro,Laptop Anañysis,Accidente,Karina,nan
+out,nan,2021-05-25,mxn,BBVA,-288.0,LapTown,Invoice,Accidente,Karina,nan
+out,nan,2021-05-25,eur,Revolut,-10.0,No Vendor Provided,Comida,Esencial,Carlos,nan
+out,nan,2021-05-26,mxn,BBVA,-836.32,BBVA cr,Anualidad,Credito,Karina,nan
+out,nan,2021-05-26,mxn,BBVA,-874.01,Farmacias Guadalajara,Medicina,Ch. F. Familia,Karina,nan
+out,nan,2021-05-26,mxn,BBVA,-817.83,Farmacias Guadalajara,Medicina,Ch. F. Familia,Karina,nan
+out,nan,2021-05-27,eur,Revolut,-10.0,Farmacia,Mascaras,Accidente,Carlos,nan
+out,nan,2021-05-27,eur,Revolut,-5.5,No Vendor Provided,Cafe,Salidas,Carlos,nan
+inf,2021-05-28,2021-05-28,eur,Revolut,1000.0,Erasmus Mundus,Beca,Revolut,Carlos,nan
+out,nan,2021-05-30,mxn,BBVA,-500.0,PetroMax,Gasolina,Ch. F. Familia,Karina,nan
+inf,nan,2021-05-31,mxn,BBVA,2000.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+inf,nan,2021-05-31,mxn,BBVA,13543.22,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,nan,2021-05-31,mxn,BBVA,-2457.95,Amazon,Xiaomi Poco X3,Esencial,Karina,nan
+out,nan,2021-05-31,eur,Revolut,-4.55,Carrefour,Comida,Esencial,Carlos,nan
+out,nan,2021-06-02,eur,Revolut,-44.2,Coop,Despensa,Esencial,Carlos,nan
+out,nan,2021-06-02,mxn,cash,-27.0,Estacionamiento,Estacionamiento,Salidas,Karina,nan
+out,nan,2021-06-02,mxn,BBVA,-193.0,McCarthy's Irish Pub,Salida Alex,Familia / Amigos,Karina,nan
+out,nan,2021-06-02,mxn,BBVA,-1100.0,Nayeli Garcia,Aleman A2,Maestria,Karina,nan
+out,nan,2021-06-02,mxn,BBVA,-88.0,Office Depot,Marcadores / Estudio,Maestria,Karina,nan
+out,nan,2021-06-04,eur,Revolut,-410.0,Minerva Monk's Inn,Renta,Esencial,Carlos,nan
+out,nan,2021-06-06,eur,Revolut,-37.94,H&M,Ropa,Gustos Personales,Carlos,nan
+out,nan,2021-06-07,eur,Revolut,-59.9,Amazon,Accesorios Camara,Gustos Personales,Carlos,nan
+out,nan,2021-06-07,mxn,BBVA,-239.0,Caseta,Caseta Santa Cecilia,Ch. F. Familia,Karina,nan
+out,nan,2021-06-07,mxn,BBVA,-500.0,PetroMax,Gasolina,Ch. F. Familia,Karina,nan
+out,2021-06-09,2021-06-08,mxn,BBVA,-2000.0,Indigo Studio,Hojas de Sauce Llorón,Gustos Personales,Karina,nan
+inf,2021-06-08,2021-06-08,mxn,BBVA,2000.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+out,2021-06-08,2021-06-08,eur,Revolut,-11.84,Uber,Uber,Viajes,Carlos,nan
+out,2021-06-11,2021-06-11,mxn,BBVA,-480.0,Ana Flores Tattoo,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-24,2021-06-11,mxn,BBVA,-1000.0,Dra. Dalia Denisse Ng Aleman,Cita Ojos,Ch. F. Familia,Karina,nan
+inf,2021-06-12,2021-06-12,eur,Revolut,5.0,Doge,inversion,Inversiones,Carlos,nan
+inf,2021-06-12,2021-06-12,eur,Revolut,50.0,Ethereum,inversion,Inversiones,Carlos,nan
+out,2021-06-12,2021-06-12,mxn,BBVA,-600.0,Ana Flores Tattoo,Tatuaje,Gustos Personales,Karina,nan
+inf,2021-06-12,2021-06-12,eur,Revolut,80.0,Bitcoin,inversion,Inversiones,Carlos,nan
+out,2021-06-12,2021-06-13,eur,Revolut,-9.0,No Vendor Provided,comida,Gustos Personales,Carlos,nan
+out,2021-06-14,2021-06-14,eur,Revolut,-44.54,Carrefour,Despensa,Esencial,Carlos,nan
+out,2021-06-14,2021-06-14,mxn,BBVA cr,-563.7,Productos Peach,Rob (vibrador),Gustos Personales,Karina,nan
+out,2021-06-14,2021-06-14,mxn,BBVA cr,-260.0,Salud Digna,Prueba Covid,Esencial,Karina,nan
+inf,2021-06-15,2021-06-15,mxn,BBVA,12152.68,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,2021-06-16,2021-06-16,eur,Revolut,-1.3,Eustacchio,Café,Gustos Personales,Carlos,nan
+out,2021-06-17,2021-06-16,mxn,BBVA,-200.0,Movistar,Recarga,Esencial,Karina,nan
+out,2021-06-16,2021-06-16,mxn,BBVA,-160.0,Cervecería Xana,IPAs & Hazy,Familia / Amigos,Karina,nan
+out,2021-06-17,2021-06-17,mxn,BBVA,-450.0,Aeropuerto,prueba covid,Esencial,Karina,nan
+out,2021-06-17,2021-06-17,mxn,BBVA,-85.0,Starbucks,Te,Salidas,Karina,nan
+out,2021-06-21,2021-06-19,eur,Revolut,-3.0,150 Sabori,Helao,Salidas,Carlos,nan
+out,2021-06-21,2021-06-19,eur,Revolut,-6.54,Carrefour,Depensa,Esencial,Carlos,nan
+out,2021-06-19,2021-06-19,eur,Revolut,-25.0,Machete,Corte,Cuidados Personales,Carlos,nan
+out,2021-06-19,2021-06-19,eur,Revolut,-10.0,Vodafone,Recarga,Esencial,Carlos,nan
+out,2021-06-24,2021-06-20,mxn,BBVA,-157.5,Farmacias Guadalajara,Tintes,Gustos Personales,Karina,nan
+out,2021-06-21,2021-06-21,eur,Revolut,-5.0,Cardano,Crypto,Inversiones,Carlos,nan
+inf,2021-06-24,2021-06-22,mxn,BBVA,2000.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+out,2021-06-24,2021-06-22,mxn,cash,-25.0,Hospital Puerta de Hierro,Estacionamiento,Esencial,Karina,nan
+out,2021-06-24,2021-06-22,mxn,BBVA,-1120.0,Ana Flores Tattoo,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-24,2021-06-22,mxn,BBVA,-396.75,El Terrible Juan,Desayuno,Salidas,Karina,nan
+out,2021-06-23,2021-06-23,eur,Revolut,-5.0,Carrefour,Comida,Gustos Personales,Carlos,nan
+out,2021-06-24,2021-06-23,mxn,BBVA,-900.72,Farmacias Guadalajara,Medicina,Ch. F. Familia,Karina,nan
+out,2021-06-27,2021-06-25,mxn,BBVA,-500.0,PetroMax,Gasolina,Ch. F. Familia,Karina,nan
+out,2021-06-27,2021-06-25,mxn,cash,-20.0,Punto Sur Plaza,Estacionamiento,Salidas,Karina,nan
+out,2021-06-25,2021-06-25,eur,Revolut,-15.0,Volpe,Comida,Gustos Personales,Carlos,nan
+out,2021-06-27,2021-06-26,mxn,BBVA,-2520.0,Ana Flores Tattoo,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-26,2021-06-26,eur,Revolut,-17.0,Bars,Bebidas,Gustos Personales,Carlos,nan
+out,2021-06-26,2021-06-26,eur,Revolut,-5.0,Carrefour,Depensa,Esencial,Carlos,nan
+out,2021-06-30,2021-06-26,mxn,BBVA,-738.1,El Socialista,Comida,Ch. F. Familia,Karina,nan
+out,2021-06-27,2021-06-26,mxn,BBVA,-159.97,Uber,Viaje,Gustos Personales,Karina,nan
+out,2021-06-27,2021-06-27,mxn,BBVA,-300.0,Arkana Tatto,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-27,2021-06-27,eur,Revolut,-5.68,Carrefour,Depensa,Esencial,Carlos,nan
+out,2021-06-27,2021-06-27,eur,Revolut,-16.9,Ferramenta,Equipo Excavación,Maestria,Carlos,nan
+out,2021-06-27,2021-06-27,eur,Revolut,-14.0,Ferramenta,Equipo Excavación,Maestria,Carlos,nan
+out,2021-06-30,2021-06-28,mxn,BBVA,-500.0,Rramu Tatto,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-28,2021-06-28,eur,Revolut,-11.23,Carrefour,Depensa,Esencial,Carlos,nan
+inf,2021-07-31,2021-06-28,eur,Revolut,1000.0,Erasmus Mundus,Beca,Revolut,Carlos,nan
+out,2021-06-30,2021-06-30,mxn,BBVA,-1000.0,Adriana (Mamá),Prestamo,Ch. F. Familia,Karina,nan
+out,2021-07-01,2021-06-30,mxn,BBVA,-415.0,El Depostio,Cervezas (Xbox Friends),Salidas,Karina,nan
+out,2021-07-01,2021-06-30,mxn,cash,-10.0,Personita,Personita,Donaciones,Karina,nan
+out,2021-07-01,2021-06-30,mxn,BBVA cr,-500.0,PetroMax,Gasolina,Ch. F. Familia,Karina,nan
+inf,2021-07-01,2021-06-30,mxn,BBVA,2600.0,Rodolfo (Papá),Gastos Familiares,Ch. F. Familia,Karina,nan
+inf,2021-06-30,2021-06-30,mxn,BBVA,12082.32,Suplari,Sueldo,BBVA Karina,Karina,nan
+out,2021-07-02,2021-07-01,mxn,BBVA,-500.0,Arkana Tatto,Tatuaje,Gustos Personales,Karina,nan
+out,2021-06-30,2021-07-01,eur,Revolut,-16.04,Carrefour,Depensa,Esencial,Carlos,nan
+out,2021-07-02,2021-07-01,mxn,cash,-60.0,Estacionamiento,Estacionamiento,Salidas,Karina,nan
+out,2021-07-02,2021-07-03,eur,Revolut,-16.07,Carrefour,Depensa,Esencial,Carlos,nan
+out,2021-07-02,2021-07-03,eur,Revolut,-6.0,Melarancio,Chelita,Salidas,Carlos,nan
+out,2021-07-03,2021-07-03,mxn,BBVA,-1100.0,Nayeli Garcia,Clases de Aleman,Maestria,Karina,mxn
+out,2021-07-04,2021-07-04,eur,Revolut,-22.0,Dehli,Comida India,Salidas,Carlos,eur
+out,2021-07-04,2021-07-04,eur,Revolut,-2.89,Carrefour,Depensa,Esencial,Carlos,eur
+out,2021-07-04,2021-07-04,eur,Revolut,-6.25,Eustaccio,Café,Salidas,Carlos,eur
+out,2021-07-04,2021-07-04,eur,Revolut,-26.47,Monochrome,Concurso,Inversiones,Carlos,30 (usd)
+out,2021-07-04,2021-07-04,eur,Revolut,-15.15,Carrefour,Depensa,Esencial,Carlos,eur
+out,2021-07-04,2021-07-04,eur,Revolut,-26.21,Independent Photographer,Concurso,Inversiones,Carlos,30 (usd)
+out,2021-07-05,2021-07-05,eur,Revolut,-7.0,Pizzeria,Comida,Salidas,Carlos,eur
+out,2021-07-31,2021-07-07,mxn,BBVA,-1000.0,Dra. Dalia Denisse Ng Aleman,Cita Ojos,Ch. F. Familia,Karina,mxn
+out,2021-07-09,2021-07-07,mxn,cash,-35.0,Hospital Puerta De Hierro,Estacionamiento,Esencial,Karina,mxn
+out,2021-07-09,2021-07-08,mxn,BBVA,-2200.0,Rramu Tatto,Tatuaje,Gustos Personales,Karina,mxn
+out,2021-07-09,2021-07-08,mxn,BBVA cr,-500.0,Petromaxo,gasolina,Ch. F. Familia,Karina,mxn
+out,2021-07-09,2021-07-08,mxn,cash,-95.0,Estacionamiento,Estacionamiento,Gustos Personales,Karina,mxn
+out,2021-07-13,2021-07-09,mxn,BBVA cr,-75.45,Iberia,MAD - ROM Vuelo,Esencial,Karina,3.18 (eur)
+out,2021-07-10,2021-07-10,eur,Revolut,-5.15,Carrefour,Vino,Salidas,Carlos,eur
+out,2021-07-10,2021-07-10,eur,Revolut,-11.5,Pastarito,Comida,Salidas,Carlos,eur
+out,2021-07-10,2021-07-10,eur,Revolut,-26.0,Zerosettanta,Comida,Salidas,Carlos,eur
+out,2021-07-11,2021-07-10,mxn,cash,-80.0,La Michoacana,Helado,Familia / Amigos,Karina,mxn
+out,2021-07-11,2021-07-11,mxn,BBVA cr,-188.0,Liverpool,Libro,Gustos Personales,Karina,mxn
+out,2021-07-11,2021-07-11,eur,Revolut,-7.7,Trenitalia,Tren,Salidas,Carlos,eur
+out,2021-07-11,2021-07-11,mxn,BBVA cr,-169.0,Domestika,Curso en Línea,Gustos Personales,Karina,mxn
+out,2021-07-12,2021-07-12,eur,Revolut,-10.34,Carrefour,Depensa,Esencial,Carlos,eur
+out,2021-07-12,2021-07-12,eur,Revolut,-19.5,Strega,comida,Salidas,Carlos,eur
+inf,2021-07-12,2021-07-12,eur,Revolut,6.5,Kruthika,Deuda,Salidas,Carlos,eur
+pcr,2021-07-13,2021-07-13,mxn,BBVA cr,1933.08,Bbva Cr,pago tarjeta de credito,Credito,Karina,mxn
+out,2021-07-14,2021-07-14,eur,Revolut,-250.0,Universität Stuttgart,curso alemán,Maestria,Karina,eur
+out,2021-07-14,2021-07-14,eur,Revolut,-13.0,Pollo Lima,comida,Salidas,Carlos,eur
+out,2021-07-15,2021-07-15,mxn,cash,-25.0,La Michoacana,Helado,Familia / Amigos,Karina,mxn
+inf,2021-07-15,2021-07-15,mxn,BBVA,11864.68,Suplari,Sueldo,BBVA Karina,Karina,mxn
+out,2021-07-15,2021-07-15,mxn,BBVA,-200.0,Movistar,Recarga,Esencial,Karina,mxn
+out,2021-07-19,2021-07-16,eur,Revolut,-8.84,Uber,Viaje,Esencial,Carlos,eur
+out,2021-07-18,2021-07-17,eur,Revolut,-50.0,Todis,Despensa,Esencial,Carlos,eur
+out,2021-07-18,2021-07-17,mxn,BBVA,-200.0,Telcel,Recarga papá,Familia / Amigos,Karina,mxn
+out,2021-07-18,2021-07-17,mxn,BBVA cr,-506.0,Coppel,Ropa,Cuidados Personales,Karina,mxn
+out,2021-07-18,2021-07-17,mxn,BBVA cr,-332.5,Amazon,Funda cel papá,Ch. F. Familia,Karina,mxn
+out,2021-07-18,2021-07-18,eur,Revolut,-7.0,Pizzería,comida,Salidas,Carlos,eur
+out,2021-07-19,2021-07-19,eur,Revolut,-10.0,Vodafone,Recarga,Esencial,Carlos,eur
+out,2021-07-19,2021-07-19,eur,Revolut,-60.0,Airbnb,Renta,Esencial,Carlos,eur
+out,2021-07-19,2021-07-19,eur,Revolut,-700.0,Studierendenwerk Stuttgart,residencia estudiantil,Maestria,Karina,eur
+out,2021-07-22,2021-07-22,eur,Revolut,-30.0,Carrefour,Despensa,Esencial,Carlos,eur
+out,2021-07-22,2021-07-22,mxn,cash,-35.0,Hospital Puerta De Hierro,estacionamiento,Esencial,Karina,mxn
+out,2021-07-22,2021-07-22,mxn,cash,-15.0,Hospital Puerta De Hierro,agua,Cuidados Personales,Karina,mxn
+pcr,2021-07-24,2021-07-24,mxn,BBVA cr,838.5,Bbva Cr,Pago de Tarjeta de Crédito,Credito,Karina,mxn
+out,2021-07-26,2021-07-25,eur,Revolut,-4.0,Trapizzino,Comida,Salidas,Carlos,eur
+out,2021-07-26,2021-07-26,eur,Revolut,-15.0,La Cucaracha,Comida,Salidas,Carlos,eur
+out,2021-07-26,2021-07-26,mxn,BBVA cr,-155.0,El Terrible Juan,cafe,Gustos Personales,Karina,mxn
+out,2021-07-26,2021-07-26,eur,Revolut,-9.98,Carrefour,Despensa,Esencial,Carlos,eur
+out,2021-07-26,2021-07-27,eur,Revolut,-74.9,Trenitalia,Viaje,Gustos Personales,Carlos,eur
+out,2021-07-26,2021-07-27,eur,Revolut,-37.7,Enviaflores,Flores,Gustos Personales,Carlos,eur
+inf,2021-07-29,2021-07-29,eur,Revolut,1000.0,Erasmus,Beca,Maestria,Carlos,eur
+out,2021-07-29,2021-07-29,eur,Revolut,-26.54,Independent Photographer,Concurso,Inversiones,Carlos,30 (usd)
+out,2021-07-29,2021-07-29,mxn,cash,-60.5,Farmacias Guadalajara,Fotos ISSFAM,Ch. F. Familia,Karina,mxn
+out,2021-07-30,2021-07-30,mxn,BBVA cr,-217.8,Applebees,Desayuno con mum,Familia / Amigos,Karina,mxn
+out,2021-07-29,2021-07-30,eur,Revolut,-68.54,Trenitalia,Viaje,Gustos Personales,Carlos,eur
+inf,2021-07-30,2021-07-30,mxn,BBVA,12054.86,Suplari,Sueldo,BBVA Karina,Karina,mxn
+pcr,2021-07-31,2021-07-31,mxn,BBVA cr,108.31,Bbva Cr,Pago de Tarjeta de Crédito,Credito,Karina,mxn
+inf,2021-07-31,2021-07-31,mxn,BBVA cr,46.69,Bbva Cr,Pago con Puntos,Credito,Karina,mxn
