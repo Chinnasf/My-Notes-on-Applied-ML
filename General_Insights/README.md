@@ -1,0 +1,1 @@
+In this notebook I will keep adding quick notes / reminders regarding my understanding in ML and AI. 
