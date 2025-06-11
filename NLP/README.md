@@ -1,0 +1,1 @@
+This folder contains a personal project which strongly depends on my understanding of NLP and regex, as it requires data analysis for personal finances based on a WhatsApp chat-group.
