@@ -1,0 +1,28 @@
+## This is because my computer dies every time I run the normal way. (:
+
+
+conda create -n bap3 python=3.11.6 -y
+
+## If previous did not work: conda create -n bap3 python=3.11.6 -c conda-forge -y
+
+conda activate bap3
+
+conda install -c conda-forge pymc==5.8.0 arviz==0.16.1 numpy==1.24.4 scipy==1.11.3 matplotlib==3.8.0 pandas==2.1.2 -y
+
+conda install -c conda-forge xarray==2023.10.1 numba==0.58.1 graphviz==8.1.0 ipython==8.16.1 -y
+
+conda install -c conda-forge ipywidgets==8.1.1 ipympl==0.9.3 notebook==7.0.6 -y
+
+conda install pip==23.2.1 -y
+
+pip install bambi==0.13.0 kulprit==0.0.1 nutpie==0.9.1 preliz==0.3.6 PyMC-BART==0.5.2
+
+conda clean --all
+
+
+
+#####
+##### If you ever want to export your final working environment to a .yml for backup or sharing, you can do:
+#####
+
+conda env export --name bap3 --no-builds > bap3_clean.yml
