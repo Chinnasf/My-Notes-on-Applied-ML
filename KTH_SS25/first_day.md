@@ -57,7 +57,7 @@
         * perform I/O (e.g. print, write to disk)
         * use random values unless passed explicitly
     3. EXAMPLE of a pure function:
-    ```Python
+        * ```Python
             def add(a, b):
                 return a + b
         ```
