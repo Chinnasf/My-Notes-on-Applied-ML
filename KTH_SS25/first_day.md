@@ -43,3 +43,6 @@ This used to be the "to-go" library as it was the OG but nowadays, there are man
 It introduced `keras` an Application Programming Interface (API) for building and training models. 
 
 * Tensorflow calculates derivatives similar to Pytorch and Jax, via AutoDiff.
+
+* [Gradient Tape](https://www.tensorflow.org/api_docs/python/tf/GradientTape): `tf.GradientTape(
+    persistent=False, watch_accessed_variables=True)`
