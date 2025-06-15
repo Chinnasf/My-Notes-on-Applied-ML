@@ -37,3 +37,7 @@
 * What does `def __init__()` is?
 
 ## INTRO TO TENSORFLOW
+
+This used to be the "to-go" library as it was the OG but nowadays, there are many more options that do not make `tensorflow` the ideal library to work with; either in academia or industry. Some drawbacks is that it's difficult to debug, and placeholders were requires.Version 2 focused on resolve those issues; it ended up being a bit less efficient but much easier to debug and mantain. 
+
+It introduced `keras` an Application Programming Interface (API) for building and training models. 
