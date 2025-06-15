@@ -24,6 +24,7 @@
     * Useful to compute the gradients
 * Function Approximation in NNs
 * Graph mode efficiency --> `git`
+* **AUTOMATED DIFFERENTIATION** This is required a lot for this school; provided by `jax`: `jax.grad()`.
 
 ### GPU Processess
 
