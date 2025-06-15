@@ -72,13 +72,26 @@ It introduced `keras` an Application Programming Interface (API) for building an
     * [Medium Article](https://jonathan-hui.medium.com/tensorflow-eager-execution-v-s-graph-tf-function-6edaa870b1f1)
     * These are different options to obtain the same result; one is more user-friendly than the other but there is a trade-off with code efficienty and time run. Slide 27 of the last lecture gives an _vanilla_ example of a Eager Mode using the MNIST dataset. 
         * Using the same example with the `keras` implementation, which took 2s to process the data; here, it takes about 10s. The other more takes 1.43s; so, faster than `keras`.
+    * [Decorators](https://www.tensorflow.org/guide/function) on top of functios; z.B:
+         
+         ```Python
+         @tf.function ## <-- adding this speeds up the code!
+         def train_step(
+            ...
+         )
+         return something
+         ```
 
-    ### SO THERE ARE THREE DIFFERENT WAYS OF RUNNING AN ALGORITHM with TensorFlow
+         Not all functions can benefit for the decorations. Apparently, this is something only from tensorflow, not something that would be found in other python libraries. 
+    
+    * Fun fact: the graph mode **does not allow if statements in the code**, instead, one must use `tf.bool()` or something like that.
 
-    * Keras (2s, MNIST Example)
-    * Eager Mode (~10s, MNIST Example)
-    * Graph Mode (~1.4s, MNIST Example; usually, about 5x faster than Eager mode)
-    * What about PyTorch?
+### SO THERE ARE THREE DIFFERENT WAYS OF RUNNING AN ALGORITHM with TensorFlow
+
+* Keras (2s, MNIST Example)
+* Eager Mode (~10s, MNIST Example)
+* Graph Mode (~1.4s, MNIST Example; usually, about 5x faster than Eager mode)
+* What about PyTorch?
 
 
 
