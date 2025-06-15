@@ -57,16 +57,28 @@
         * perform I/O (e.g. print, write to disk)
         * use random values unless passed explicitly
     3. EXAMPLE of a pure function:
+        * Always gives the same result.
+        * Doesn't change anything outside.
+        * Doesn't depend on external state.
         * ```Python
             def add(a, b):
                 return a + b
         ```
-        * Always gives the same result.
-        * Doesn't change anything outside.
-        * Doesn't depend on external state.
-    
     4. EXAMPLE of an impure function: 
+        * Depends on the external variable `x`.
+        * If `x` changes, the output changes.
+        * Modifies the input list `lst` directly --> side effect!
+        ```Python
+            x = 10
 
+            def add_to_x(b):
+                return x + b
+            
+            def increment_list(lst):
+                for i in range(len(lst)):
+                    lst[i] += 1
+                return lst
+        ```
 
 ## INTRO TO TENSORFLOW
 
