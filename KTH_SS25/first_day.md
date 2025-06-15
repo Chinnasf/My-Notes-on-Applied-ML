@@ -94,5 +94,17 @@ It introduced `keras` an Application Programming Interface (API) for building an
 * What about PyTorch?
 
 
+## JAX Tutorial
+
+```Python
+
+import jax
+import jax.numpy as jnp
+
+x = jnp.arange(5)
+
+x.devices() # can be used in multiple devices / GPUs
+```
+
 
 
