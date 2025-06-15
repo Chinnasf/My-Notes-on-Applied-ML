@@ -38,6 +38,8 @@
 * What does `def __init__()` is?
     * Example of `__init__` in slide 30. 
 * Mention the difference between CPU, GPU, and TPU. 
+    * [**PARTIAL ANSWER**](https://www.liquidweb.com/gpu/vs-tpu/): A TPU (tensor processing unit) is a specialized chip designed for deep learning and artificial intelligence. Unlike GPUs, which handle a variety of parallel computing tasks, TPUs focus exclusively on processing tensor operations, the core computations in neural networks.
+    * Google developed TPUs to accelerate AI workloads efficiently, particularly for machine learning models running on TensorFlow. These chips power everything from language models to image recognition systems, offering high performance with lower energy consumption than traditional GPUs.
 * Does NNs require CV?
 * Can one process real-time input data with these tools? 
 * What is a `context manager` in Python? When is it needed? A brief explanation [here](https://book.pythontips.com/en/latest/context_managers.html).
@@ -46,6 +48,25 @@
     * `wandb`: the `git` for your models, kind of. Apparently, it creates logs.
         * Particularly useful for LLMs, for instance. 
         * [doc](https://docs.wandb.ai/)  
+* **WHAT IS A PURE FUNCTION?**
+    1. Always gives the same output for the same input 
+        * It doesn't rely on or modify anything outside its scope.
+    2. Has no side effects. It does not:
+        * change global variables
+        * modify input arguments
+        * perform I/O (e.g. print, write to disk)
+        * use random values unless passed explicitly
+    3. EXAMPLE of a pure function:
+    ```Python
+            def add(a, b):
+                return a + b
+        ```
+        * Always gives the same result.
+        * Doesn't change anything outside.
+        * Doesn't depend on external state.
+    
+    4. EXAMPLE of an impure function: 
+
 
 ## INTRO TO TENSORFLOW
 
@@ -96,6 +117,11 @@ It introduced `keras` an Application Programming Interface (API) for building an
 
 ## JAX Tutorial
 
+Designed for complex scientific computing or custom gradients.
+
+**IMPORTANT**: Mutability: PyTorch allows changing values in place (e.g., weights, buffers), but JAX is built around pure functions and immutability.
+
+
 ```Python
 
 import jax
@@ -103,8 +129,15 @@ import jax.numpy as jnp
 
 x = jnp.arange(5)
 
-x.devices() # can be used in multiple devices / GPUs
+x.devices() # can be used in multiple devices / GPUs. 
 ```
+
+* It has been proved beneficial for Bayesian Methods for optimizing the use of random methods. Also for initializing and reproducibility. 
+* Have a look at the tutorial. :v 
+    * Alright, it seems that people like `jax` not only because of the improved performance, but also because it is traceable.
+* `jax` cannot compile conditionals, for instance `if` or `while`. Booleans cannot be processed by jax, apparently because of the way in which data is stored.
+    * Have a look at `Marking arguments as static` in the  jpnb.
+* It is almost as if you had to learn a new way of thinking for correctly implementing `jax` although it is written in python.
 
 
 
