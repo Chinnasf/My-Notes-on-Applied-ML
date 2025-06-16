@@ -84,3 +84,6 @@ So, it seems that PINNs are a form of UNSUPERVISED LEARNING. It requires colloca
 
 # INTRODUCTION TO DIFFERENTIAL EQUATIONS
 
+Main notes were done in my notebook.
+
+**REMARK**: one could also use the [Legendre-Galerkin Method](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1145-19.pdf). Garlekin Method has its roots on Finite Element Method.
