@@ -3,7 +3,7 @@
 
 ### Relevant libraries
 
-* (PyTorch](https://pytorch.org/)
+* [PyTorch](https://pytorch.org/)
 * [Tensorflow](https://www.tensorflow.org/)
 * [Jax](https://docs.jax.dev/en/latest/)
 * [jit](https://numba.pydata.org/numba-doc/dev/user/jit.html): just-in-time compilation.
