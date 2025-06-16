@@ -84,6 +84,105 @@ So, it seems that PINNs are a form of UNSUPERVISED LEARNING. It requires colloca
 
 # INTRODUCTION TO DIFFERENTIAL EQUATIONS
 
+## First Part
+
 Main notes were done in my notebook.
 
 **REMARK**: one could also use the [Legendre-Galerkin Method](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1145-19.pdf). Garlekin Method has its roots on Finite Element Method.
+
+## Second Part
+
+### IDENTIFICATION, OBSERVATION, AND STABILITY ANALYSIS OF DIFFERENTIAL EQUATIONS
+
+[Paper](https://www.sciencedirect.com/science/article/pii/0005109894900299): . Ljung and T. Glad 1994: On global identifiability for arbitrary model parameterization.
+
+Type of problems:
+
+* Observation: under-contrained
+    * Not enough data
+    * Multiple solutions
+
+* Inference: well-defined
+    * Exactly enough data
+    * Only one solution
+
+*Estimation: Over-contrained
+    * Too much data
+    *Maybe no solution: usually because of noise
+
+**DEFINITIONS**
+
+* Observability: the state can be inferred from the measurements: $x$. 
+* Identifiability: the parameters can be inferred from the measurements: $\theta$.
+    * Global identifiability.
+    * Local identifiability.
+* Persistent exciting signal.
+* epistemic uncertainty
+    * Epistemic uncertainty is a type of uncertainty that arises from a lack of knowledge or incomplete information about a particular system or process. It's often contrasted with aleatoric uncertainty, which arises from inherent randomness in the system.
+* aleatoric uncertainty
+    * overfitting happens when this is learnt    
+
+PINN mentioned as the trying to identify parameters of unidentifiable / identifiable PDEs.
+
+PINNs can solve "index problems". It seems that SINDy and PINNs are complementary.
+
+So, it is IMPORTANT to be able to identify whether a problem is identifiable or not; or, under which conditions is it, etc. Why?
+
+* **OBSERVATIONAL BIAS**: change the data to fit the underlying physics
+* **LEARNING BIAS**: change the loss function to include physics biases
+* **INDUCTIVE BIAS**: modify the training algorithm to force physics biases 
+* **DISCREPANCY BIAS**: change the model to incorporate physics ((slide 15))
+
+(Sparse Identification of Non-Linear Dynamics) SINDy with Fixed Cut-off Thresholding
+
+**REFERENCES**
+* Implicit function theorem: slide 9
+    * [Identifiability of nonlinear systems with application to HIV/AIDS models](Identifiability of nonlinear systems with application to HIV/AIDS models) 
+
+* [Discovery of nonlineardynamical systems using a Runge–Kutta inspireddictionary-based sparseregression approach](https://royalsocietypublishing.org/doi/epdf/10.1098/rspa.2021.0883): **QUESTION**: what is the complexity of RG-SINDy?
+
+* [Physics-Informed SINDy (PhI-SINDy)](https://link.springer.com/article/10.1007/s11071-024-09652-2): Physics enhanced sparse identification of dynamical systems with discontinuous nonlinearities 
+
+**QUESTION**: what is the algorithm complexity of the family of SINDy algorithms? Do you need a cluster? is this for big data?
+
+* [Universal Differential Equations for Scientific Machine Learning](https://arxiv.org/abs/2001.04385)
+    * A UDE is a forced stochastic delay partial differential equation; this analysis requires the implementation of the neural ODE + SINDy on a node. 
+
+
+RELATED VOLVO PROJECT: slide 19. Identification of dynamical systems: for equation discovery. 
+
+* [Physics-informed learning of governing equations from scarce data](https://www.nature.com/articles/s41467-021-26434-1): PINN + SINDy + PINN-SR ==> Optimization ADAM
+
+
+## BAYESIAN IDENTIFICATION
+ **LIBRO DE CRISTIAN** que me regalo :p (deep learning, Goodfellow, 2016)
+
+ WHEN APPLYING THE MSE, it is the same as assuming that your noise is gaussian; otherwise, one cannot use the loss as MSE. I wonder if the volvo noise is Gaussian. 
+
+ SINDy == Max A POSTERIORI WITH LAPALCE PRIOR!! So, instead of going to well-known algorithms right away, it is important to characterize the noise of the dataset. Then, if your noise is not Gaussian, one would have to redo the analyses (slide 23). 
+
+So, SINDy is actually a Bayes Method. **This section is particularly useful to teach why it MSE es typically used**.
+
+**BAYESIAN SYNDy**
+
+* [Sparsifying priors for Bayesian uncertainty quantification in model discovery](https://royalsocietypublishing.org/doi/10.1098/rsos.211823): 
+
+* [Response Estimation and System Identification of Dynamical Systems via Physics-Informed Neural Networks](https://arxiv.org/abs/2410.01340)
+
+* IT IS FUNDAMENTAL TO UNDERSTAND THE METROPOLIS HASTING ALGORITHM (how does it compares to the rejection sampling algorithm?)
+    * Create a plot similar to the one of slide 25 for the [electron beam simulator](https://github.com/Chinnasf/Physics/blob/master/FUSION-EP/Plasmas/TWO_STREAM_ELECTRON_INSTABILITY.ipynb).
+
+There's an acute importance of the prior (which directly relates to the noise of the dataset) for identifiability of a problem. 
+
+**OBSERVERS**
+
+What is the difference between the filter and an observer? 
+
+* Luenberger observer: **linear systems**
+* KKL observer: **non-linear systems** : On the Existence of a Kazantzis-Kravaris/Luenberger Observer: [arXiv:0903.0297](https://arxiv.org/abs/0903.0297)
+    * KKL Observer Synthesis for Nonlinear Systems via Physics-Informed Learning: [arXiv:2501.11655](https://arxiv.org/abs/2501.11655)
+
+
+
+
+
