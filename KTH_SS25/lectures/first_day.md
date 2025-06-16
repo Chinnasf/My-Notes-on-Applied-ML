@@ -12,6 +12,7 @@
 
 ### Important concepts
 
+* [Data structure](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
 * [Computational Graphs](https://www.geeksforgeeks.org/deep-learning/computational-graphs-in-deep-learning/)
     * PyTorch creates these graphs in an improved manner. 
 * Data Structures --> important to understand the different types; z.B.: `torch.eye()`
