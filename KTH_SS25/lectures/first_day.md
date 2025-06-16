@@ -1,4 +1,4 @@
-# 1$^{st}$ Day Lecture
+# First Day Lecture
 
 
 ### Relevant libraries
