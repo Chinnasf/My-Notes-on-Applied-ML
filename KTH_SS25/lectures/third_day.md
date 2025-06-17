@@ -218,13 +218,38 @@ Mean and variance are statistical quantities that one is ALWAYS interested to pr
 
 Filer = Kernel 
 
+OBJECTIVE: construct convolutional filters based on a linear combination of function that translates and obtains its corresponding PDF. 
+
+This person is the invertor of this method, along with [Andres Galindo-Olarte](https://www.linkedin.com/in/andr%C3%A9s-felipe-galindo-olarte-9434b4188/) (Colombia), from University of Texas-Austin. 
 
 
+"ALREADY HAS DEMONSTRATED IT'S ABILITY TO REDUCE THE AMOUNT OF DATA NEEDED IN PIC PLASMA SIMULATIONS". sile 15
+
+CONCLUSION:
+
+* "I have described a general framework, choose how discipative you want to be, etc" --> how to design your filter. 
+    * [Denoising Particle-In-Cell data via Smoothness-Increasing Accuracy-Conserving filters with application to Bohm speed computation](https://doi.org/10.1016/j.jcp.2024.112790)
+        * THIS READING IS A MUUUUUUUUUUUUUSSSSSTTTTTTTTTT
+        * Highlights
+            * SIAC filters are effective denoisers for moment data arising from PIC simulations.
+            * SIAC captures appropriate Fourier signal information.
+            * SIAC reduces amount of information necessary in computation of quantities of interest.
+            * SIAC is useful in Bohm speed calculation.  
+    * [Here is the code](https://gitlab.com/msiac-tool/MSIAC) in Julia
+    * [Here is the website](https://siac-magic.gitlab.io/web/)
+    * Some of the published work explains more or less the the framework presented here, but, apparently, there's no publication work were the content of this presentation is in a written format; however, the References rection show the connection of all of these.    
+
+* UNDERSTAND how your filter must behave --> understand convolution
+    
+During time integration analysis:
+* are we still conservative?
+* entropy solution? --> physically relevant
+
+Picklo & Edoh: Journal of Scientific Computing --> requires the modification of the filter. 
+* THEIR WORK: [Entropy Correction with SIAC Filters for High-Order DG Methods](https://link.springer.com/article/10.1007/s10915-025-02905-1)
 
 
-
-
-
+* Photo with email. 
 
 
 # IMPORTANT FOR GENT PHD
@@ -239,4 +264,9 @@ Filer = Kernel
     * When one does not want to sacrify information. 
     * Remark: kernel becomes negative.
     * What is the scaling? 
+
+### CURIOSITY QUESTION:
+
+* Can I create a PINN for modelling the POISSON equation for the two stream instability problem? 
+* Will it be interesting for Gert that I model the whistler instability? 
 
