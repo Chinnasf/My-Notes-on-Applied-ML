@@ -132,6 +132,24 @@ Motivation: [Nodal Discontinuous Galerkin Methods](https://link.springer.com/boo
 
 * REMARK: modified Fourier space (signal space) implies a convolution in the physical space. ---> DIRICHLET KERNEL. 
 
+* Fourier space = signal space
+*  Euclidean space = physical space
+
+
+**QUESTION:::: DOES THE AMOUNT OF DECIMALS MATTER FOR YOUR FIELD? Is it because of a education purpose or is it because the application requires that amount of decimals**.
+* GLOBAL FILTER: you're using all the data. What does global filter mean? Is it a downside? 
+* How does one handle high frequency oscillations?
+
+**KEYWORDS**
+* Dissipation 
+* decay rate*smoothness / accuracy 
+* negative values ?
+
+
+
+
+
+
 ## IMPORTANT FOR GENT PHD
 
 * Make sure you understand the modeling/simulation (?) processing of signal with shocks, as many probes may pick that from tokamaks. 
@@ -142,11 +160,6 @@ Motivation: [Nodal Discontinuous Galerkin Methods](https://link.springer.com/boo
     * We have  "another filter", however, it does not satisfy the definition of a filter! **the exponential filtar**. Alpha is the strength of the filter, and eta is the order of the filter, with a cut-off.
     * Order of the filter controls accuracy, alpha --> dissipation (how fast you're cutting off), eta-c --> frequency cut-off mode; this has been applied to "Fourier data" 
     * When one does not want to sacrify information. 
+    * Remark: kernel becomes negative.
+    * What is the scaling? 
 
-**QUESTION:::: DOES THE AMOUNT OF DECIMALS MATTER FOR YOUR FIELD? Is it because of a education purpose or is it because the application requires that amount of decimals**.
-    * GLOBAL FILTER: you're using all the data. What does global filter mean? Is it a downside? 
-
-**KEYWORDS**
-* Dissipation 
-* decay rate*smoothness / accuracy 
-* negative values ?
