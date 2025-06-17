@@ -120,5 +120,33 @@ Motivation: [Nodal Discontinuous Galerkin Methods](https://link.springer.com/boo
 **Important***: truncated Fourier series. But before we dwelve into this, MAKE SURE YOU UNDERSTAND what are the assumptions in order to apply Fourier Series; z.B. decaying function, continuous and periodic? etc.
     * This opens the discussion: decay of Fourier parameters: comparison to vanishing parameters in GD. 
     * If we are interested in studying the jump in the discontinuity, then... THERE IS A SLIDE with an integral that says "sin(s)/s", I think. She says: "this is never shown and this is what is introducing your oscillations".
+    * Global decay rates vs ... 
 
+** HOW TO APPLY FILTERS?**
+* Modify the fourier coeffs in order to observe the decay in a smother way. Decrease the oscillations. Remark: the modification is in a way such that it affects the "pollution" of the discontinuity. 
+* This is were PINNs can be used: creating PINNs such that they behave as filters. 
+    * A filter $\sigma(\eta)$: what is a filter? Mathematical definition, slide with reference "H. Vandeven, 'Family of spectral filters...' year 1991". 
+* What is the connection between frequency filters and wavelenght filters?
+* Most of the information is on thhe low modes, why? However, we want to make sure they're unaffected. 
+    * Why not just cut the hight modes? Simplest answer: loss of information. 
 
+* REMARK: modified Fourier space (signal space) implies a convolution in the physical space. ---> DIRICHLET KERNEL. 
+
+## IMPORTANT FOR GENT PHD
+
+* Make sure you understand the modeling/simulation (?) processing of signal with shocks, as many probes may pick that from tokamaks. 
+* https://iopscience.iop.org/article/10.3847/2041-8213/ab398b: 
+
+* Took a photo for inspiration: "this is where the methods make a difference, this is the application of PINNs". However, notice how there's also a noticeable difference in the analytic function for the decay rates. 
+* Her: THE "DIRICHECK KERNEL IS THE MOST DISSIPATIVE: |sin(2x)|": going away from the actual form. For the heaviside function, none of them are even getting close to the discontinuity. However, some of them, help to surpress the Gibbs oscillations. 
+    * We have  "another filter", however, it does not satisfy the definition of a filter! **the exponential filtar**. Alpha is the strength of the filter, and eta is the order of the filter, with a cut-off.
+    * Order of the filter controls accuracy, alpha --> dissipation (how fast you're cutting off), eta-c --> frequency cut-off mode; this has been applied to "Fourier data" 
+    * When one does not want to sacrify information. 
+
+**QUESTION:::: DOES THE AMOUNT OF DECIMALS MATTER FOR YOUR FIELD? Is it because of a education purpose or is it because the application requires that amount of decimals**.
+    * GLOBAL FILTER: you're using all the data. What does global filter mean? Is it a downside? 
+
+**KEYWORDS**
+* Dissipation 
+* decay rate*smoothness / accuracy 
+* negative values ?
