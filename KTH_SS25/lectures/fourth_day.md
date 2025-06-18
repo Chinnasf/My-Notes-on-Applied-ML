@@ -37,6 +37,10 @@ DEPENDING ON THE DATA YOU CHOOSE THE ARCHITECTURE
 
 * "No body expects you to converg in a NN, but you have to converge to the best local minima"
 
+* DO NOT FORGET TO STUDY THE STABILITY, CONVERGENCE, AND ... of the neural network: global and local sense. 
+    * Numerical error vs approximation error
+    * Numerical dissipation vs physical dissipation
+
 ### CONVOLUTIONAL NN and FNN vs CNN
 
 Convolutional Neural Network works well for images recognition. 
@@ -60,21 +64,6 @@ How do you take the gradient of an image? Taking the difference between slices w
     * By applying convolutions, one looses pixels, this is why **padding** is then performed. 
     * **stride**: when is it needed?
         * CNN used in turbulence. I think this is one type of requirement for this field, I believe not everyone needs this.  
-
-
-TOPICO PARA JAGUAR EN LA SELVA
-
-* EMPODERAMIENTO VS AUTONOMIA
-    * ¿Quién puede empoderar a quien?
-        * Emilia Perez, intento de empoderamiento por parte de europeos???
-        * Blancos no pueden empoderar a, por ejemplo, LATAM. 
-        * LATAM puede empoderar a LATAM. 
-        * Blancos pueden otorgar autonomía a LATAM, pero LATAM necesita empoderamiento para tomar dicha autonomía. 
-
-
-* OBJETIVO: convencer a vulnerables a tomar y divulgar empoderamiento y convencer a los que ya están empoderados a tomar autonomía. 
-    * GENERAL CONCEPT: no es sobre razas, es sobre quién tiene el poder y quién necesita (o se beneficia) del empoderamiento. 
-
 
 Graph NN are born from CNN; so, understanding CNN can open the doors to having a better understanding to other architectures. 
 * "The one issue with Graph-CNN is that it does not scale; but it is a good tool for shape optimization. It did not scale well.".  
@@ -206,3 +195,128 @@ READ:
 * RESNET: Number of layers relate to the time step in the solver
 
 Example of regression for a 1D function (jax jpnb tutorial)
+
+Heart of code: 
+
+CANONICAL APPROACH OF THE NN VS ODENet
+
+* Canonica: W_{n+1} (board)
+* ODEnet: forward pass replaced with ode-iintegrator
+    * "Don't use any ODE integrator, there's `jax.experimental.ode`; this is more efficient"
+    * Same routine with gradient descent 
+
+t=0 --> Input of a neural network 
+
+### ADJOINT METHOD
+
+A linear function + a constrain example.
+
+HOW YOU SOLVE EVEN THE MULTIPLICATION OF OBJECTS AFFECT THE PERFORMANCE OF THE CODE (see slide 20).
+
+Adjoint methods are exploided when the chain rule of derivatives may be required. One may encounter: the product of the adjoint with the jacobian. 
+* See the proof. 
+* Modify the ODE solver to recover properties; also, it helps to reduce the complexity of the model (photo). 
+
+* CAN YOU APPLY THIS TO A LORENTZ SYSTEM? (it's in the jpnb)
+    * Or to a damped harmonic oscillator?
+
+* `torchdiffeq` --> INSTALLED IN `aGPUo`.
+
+### MULTI-STEP NN. 
+
+* [Adams-Bashforth and Adams-Moulton methods](https://en.wikiversity.org/wiki/Adams-Bashforth_and_Adams-Moulton_methods)
+
+IT IS ALL ABOUT HOW YOU INTEGRATE THE ODE. 
+
+### HAMILTONIAN SYSTEMS: SympNets
+
+Mi carnal agrego el three body problem en los codigos. 
+
+There is a fucking poisson NN! How many are there out thereeeeeeee. Amazing. 
+
+There's a fucking non-linear schrodinger equation nn. I'm speechless. 
+
+
+# INTRODUCTION TO PINNs: PART ONE
+
+Suppose you want to simulate a flow, how do you impose boundary conditions? 
+
+Now, suppose you have the data, can you recover the Hamiltonian from that? 
+
+Here, we understand how the NN helps achieve that. 
+
+Slide 8, the given example could be the Schr"odinger equation. To assess whether that is the solution, 
+you will need to know how to derive your neural network. You assess for the residual, which must 
+be zero, in the ideal case. The data fed into the PINN could be the boundary condition or initial condition. 
+
+YOU COULD ACTUALLY TURN THE TWO ELECTRON BEAM INTO A PINN. 
+
+Puedes usar tensorflow, pytorch o jax para lograr eso. Para lograr eso, necesitas entender si es forward o reverse problem. 
+
+Chance si lo hago lo puedo publicar en arxiv! :D 
+
+**NO MAMES CLARO, LE PUEDES PREGUNTAR AL KARNALLLLLL Y LE PUEDES DECIR QUE SI LO PUEDES PUBLICAR CON ELLLLLLLL!!**
+
+"i am using pinn as a formal solver, I am not casting anything in time". 
+
+* Compute the [Eigen-spectral](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix) of "this".
+    * Stiff PD
+
+
+* Numerical fidelity is different from experimental fidelity; how do you account this into real-time input data? 
+    * In FEM: you have a primar error; one must keep track of the behaviour of this error in order to adapt the new mesh. Exactly this idea can be implemented in PINNs. 
+        * How do you change the basis point w.r.t. residual values? Definition of probability: a bounded function of the residual. Similar idea in PINN. 
+
+* You have residual loss and data loos: how do they impact the convergence.
+* PINN is nothing but "constrained optimization": if you come from optimization background, this helps. 
+
+
+* Lagrange multiplier approach: a constrain for a constrained problem. 
+    * PD is the regularizer of the optimization term (in the PINN).
+        * The PD term can become more cumbersone the loss function, so it's important to find a balance so that the bias in the algorithm does not increases too much. 
+
+* Understand the error decomposition from the typical machine learning algiruthm 
+    * Optimization error and generalization error (generalization error = estimation error + approximation error)
+        * One must overcome these eroor to approximate to the trurh. 
+    * NN class conly accounts for optimization error + estimation error. 
+    * Optimization error does not mean that we reduce it by finding the global minima, but the best local minima. 
+    * Optimization error is the most difficult to record: people tend to report only the estimation + approximation errors. There's a group dedicated to understanding the optimization error.
+
+* "Yes, pinns work well for forward problems, but what about inverse problems?"
+
+* Good practice: log the operations that the algorithm perform w.r.t. the important variables. 
+    * What is `tensorflow.GradientTape`
+    * six-line code to compute the derivative 
+    * REMARK: DO NOT USE NUMPY exp(), USE TENSORFLOW exp(); use the "differentiable library". And, of course, the other operators / functions.  
+
+* He showed that only a couple of lines from a regular NN turned it into a PINNS. 
+
+For PINNs, the the vector multiplication to jacobina, the jacobian will have the trace as non-zero, but the other non diagonal values are zero. 
+
+## INVERSE PROBLEMAS 
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# TOPICO PARA JAGUAR EN LA SELVA
+
+* EMPODERAMIENTO VS AUTONOMIA
+    * ¿Quién puede empoderar a quien?
+        * Emilia Perez, intento de empoderamiento por parte de europeos???
+        * Blancos no pueden empoderar a, por ejemplo, LATAM. 
+        * LATAM puede empoderar a LATAM. 
+        * Blancos pueden otorgar autonomía a LATAM, pero LATAM necesita empoderamiento para tomar dicha autonomía. 
+
+* OBJETIVO: convencer a vulnerables a tomar y divulgar empoderamiento y convencer a los que ya están empoderados a tomar autonomía. 
+    * GENERAL CONCEPT: no es sobre razas, es sobre quién tiene el poder y quién necesita (o se beneficia) del empoderamiento. 
+
+
