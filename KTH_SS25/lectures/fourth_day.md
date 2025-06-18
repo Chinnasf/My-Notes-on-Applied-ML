@@ -331,6 +331,59 @@ There's a notebook on a POISSON QEUATION INVERSE SCALAR using PyTorch.
 I wonder if there has been exploration on tensors and PINNs; relativity? 
 
 
+* Convergence increases with the consideration of residual points:: main take away of this. Dimensionality increases, convergence slows down. 
+    1. compute residual
+    2. add derivative
+    3. norm
+    4. photo
+
+
+# PROGRAMMING PINNS WITH GPUs
+
+Content
+1. What are GPUs?
+2. Why GPUs in PINNs?
+3. How to program GPUs?
+
+### 1. GRAPHIC PROCESSING UNIT
+
+Specialized microunit to sccelerte the creation and manipulation of images in the video frame for display devices. 
+
+Different Processors
+* CPUs, GPUs, and TPUs are all types of processors, but they have different specializations. CPUs are general-purpose processors for everyday tasks, GPUs excel at parallel processing for graphics and AI, and TPUs are custom-designed by Google for machine learning workloads, particularly those using TensorFlow. 
+* Laptops adapt to machine learning by incorporating powerful processors (CPUs and GPUs), increased memory (RAM), faster storage (SSDs), and specialized hardware like Neural Processing Units ([NPUs](https://www.ibm.com/think/topics/neural-processing-unit)). These hardware upgrades enable faster training and execution of machine learning models, while software enhancements provide AI-powered tools and personalized user experiences. 
+
+CNN must work better in GPUs then, no? 
+* All pixels can be used at the same time. 
+
+* WHAT ARE THE MAIN DIFFERENCES BETWEEN INTEGRATED AND DEDICATED GPUs? 
+    * Integrated are less efficient than dedicaded. 
+    * So, is it better to create your own computer? 
+* Can one use an external GPU (eGPU) in a personal computer?
+    * While it's not possible to physically install a dedicated GPU inside a laptop like you would with a desktop computer, you can achieve similar results using an external GPU (eGPU). An eGPU is a dock that houses a desktop graphics card and connects to your laptop via a Thunderbolt 3 or USB-C port. This allows your laptop to leverage the power of the external graphics card for tasks like gaming and video editing. 
+* Ecological impact of clusters? 
+
+
+Usually, there's no `if` statements when working with images, maybe this is why there's no `if` in `jax` or `pytorch`? 
+* yes
+* so, the by processing AI with GPU, it's easier to channel the user to adap to the GPU architecture than redo the GPU. 
+
+* CUDA core. 
+    * [CUDA Refresher: Reviewing the Origins of GPU Computing](https://developer.nvidia.com/blog/cuda-refresher-reviewing-the-origins-of-gpu-computing/)
+
+Most important image (thus, take away) of this section:  
+
+![CPUvsGPU](image3-2-1024x412.png)
+
+### 2. Why GPU for PINNs
+
+
+
+
+
+
+
+
 
 
 
