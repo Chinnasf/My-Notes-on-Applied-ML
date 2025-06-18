@@ -256,6 +256,8 @@ Puedes usar tensorflow, pytorch o jax para lograr eso. Para lograr eso, necesita
 Chance si lo hago lo puedo publicar en arxiv! :D 
 
 **NO MAMES CLARO, LE PUEDES PREGUNTAR AL KARNALLLLLL Y LE PUEDES DECIR QUE SI LO PUEDES PUBLICAR CON ELLLLLLLL!!**
+* [A Deep-Learning-Based Particle-in-Cell Method for Plasma Simulations](https://www.pdc.kth.se/about/publications/pdc-newsletter-no-2-2021/a-deep-learning-based-particle-in-cell-method-for-plasma-simulations-1.1130171)
+
 
 "i am using pinn as a formal solver, I am not casting anything in time". 
 
@@ -295,10 +297,38 @@ For PINNs, the the vector multiplication to jacobina, the jacobian will have the
 
 ## INVERSE PROBLEMAS 
 
+There's a notebook on a POISSON QEUATION INVERSE SCALAR using PyTorch. 
+* `poisson_inverse_function.ipynb`
 
+* How do you sample uniformily? Take the sqrt of the distribution that you are sampling. --> step for colocation point. 
+    * Task: change the 0.01 into 1, see how much it changes, 
 
+* Three changes that you have to do, depending on the space/time optimization of your problem. 
 
+* [REFERENCE](https://arxiv.org/abs/2009.04544): Self-Adaptive Physics-Informed Neural Networks using a Soft Attention Mechanism
+    * converting the function into a min=-max problem . 
+    * Minimazion loss with selft-adaptling weights. 
+    * First, it looked good; but, there is an issue:
+        1. Something failed: the lambda will increase withouth any contraint. 
+            * NN is not good for high frequency
+            * Solution: force a constrain. 
+                * Residual-based attention: like in Finite Element Method. 
+            * "If there's variance in the lambda, it means that there's convergence" algo asi, parece que puedes mirar el residuo y saber si esta convergiendo con todo y ruido. 
+                * Actually, this is what turned the residual based attention weights; example, the helmholtz equation. 
+* INFORMATION BOTTLENECK THEORY
+    * Let's look at the signal-to-noise ratio. 
+    * Gives the typical learning curve of the PINN. 
+        * There are three main stages: fitting, transition, diffusion. Slide 45.
+        * This is understood by first having a clear understanding on cross-entropy. 
+        * [Georgios C. Anagnostopoulos](https://scholar.google.com/citations?user=P5VBBVAAAAAJ&hl=en)
 
+* Hard constrains OFNeuralN. 
+
+* If the solution has hight frequencies, it is possible that you will make use of Fourier series. ~30 ish, there's a comment on how you turn signal (frequencies) into a feature; this is useful for Helmholz equation, wave equation, etc. 
+
+* Garlekin projection for non-linear PDE 
+
+I wonder if there has been exploration on tensors and PINNs; relativity? 
 
 
 
