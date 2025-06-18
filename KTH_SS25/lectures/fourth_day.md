@@ -375,15 +375,19 @@ Most important image (thus, take away) of this section:
 
 ![CPUvsGPU](image3-2-1024x412.png)
 
-### 2. Why GPU for PINNs
+### 2. Why GPU for PINNs?
+
+GPUs become NN acceelerators by adding a core that is capable of computing --> tensor cores. 
+
+* It is important whcih type of GPU is needed to perform well AI models. 
 
 
+![python](python.png)
+
+![google colab](google_colab.png)
 
 
-
-
-
-
+### 3. How to programm GPUs? 
 
 
 
