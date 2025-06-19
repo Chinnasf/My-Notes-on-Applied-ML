@@ -153,6 +153,56 @@ Graph neural networksto learn data from MD simulations to the use as input.
 Physics-Informed DeepONet:: VERY USEFUL WHEN THERE'S LITTLE DATA BUT YOU KNOW THE PHYSICS. 
 
 
+# CURRICULUM LEARNING, M. Barreau
+
+The guy specializes in the intersection between control and machine learning. 
+
+Xavier initialization. $\theta <-- $ Xavier()
+
+REMEMBER THAT the way in which you are optimizing the algorithm (argmin), you are implementing an stochastic method. Hence, one try is just not sufficient. You must do a statistical analysis of the optimization ouputs. 
+
+So, there is an analysis on the variance to the initial conditions (how sensitive is when varying initial conditios) when performing the optimization method. The autors found that the model could be further improved by initializing the optimization in a specefic way; but, I think, after they performed a statistical analysis. 
+
+He's showing **how to debug the training: loss landscape**:
+* Qualitatively characterizing neural network optimization problems [arXiv:1412.6544](https://arxiv.org/abs/1412.6544)
+* Visualizing the Loss Landscape of Neural Nets [arXiv:1712.09913](https://arxiv.org/abs/1712.09913)
+
+
+### WHAT IS CURRICULUM LEARNING?
+
+You learn from what you have learnt before. ---> Moving to an easier problem to a more complex problem.  
+
+| Domain                     | Curriculum Examples                                                                 |
+| -------------------------- | ----------------------------------------------------------------------------------- |
+| **NLP**                    | Translate simple sentences before complex ones.                                     |
+| **Computer Vision**        | Train on clear, centered images before noisy or occluded ones.                      |
+| **Reinforcement Learning** | Learn simple tasks before complex ones (e.g., walking → running → obstacle course). |
+| **Robotics**               | Learn in simulation before transferring to real-world scenarios.                    |
+| **Speech Recognition**     | Learn slow and clear speech before fast or accented speech.                         |
+
+
+
+Why does it matters in PINNs?
+
+It has been observed that the loss function worsenes when the physics is added. Therefore, one could try to learn the non-physics version of the problem and then add the soft constrain to have a better generalization. 
+
+* Challenges in Training PINNs: A Loss Landscape Perspective [arXiv:2402.01868](https://arxiv.org/abs/2402.01868)
+
+Also, you can take all the literature about problem constrains (like, Lagrangian relaxation and primal-dual algorithm) and try to implement it into the PINN. 
+
+* He presents a proof as to why the residual IS NOT ENOUGH to evaluate the quality of a reconstruction. 
+
+* CAUSALITY: [Respecting causality for training physics-informed neural networks](https://www.sciencedirect.com/science/article/pii/S0045782524000690)
+    * "While the popularity of physics-informed neural networks (PINNs) is steadily rising, to this date PINNs have not been successful in simulating dynamical systems whose solution exhibits multi-scale, chaotic or turbulent behavior. In this work we attribute this shortcoming to the inability of existing PINNs formulations to respect the spatio-temporal causal structure that is inherent to the evolution of physical systems. We argue that this is a fundamental limitation and a key source of error that can ultimately steer PINN models to converge towards erroneous solutions. We address this pathology by proposing a simple re-formulation of PINNs loss functions that can explicitly account for physical causality during model training. We demonstrate that this simple modification alone is enough to introduce significant accuracy improvements, as well as a practical quantitative mechanism for assessing the convergence of a PINNs model. We provide state-of-the-art numerical results across a series of benchmarks for which existing PINNs formulations fail, including the chaotic Lorenz system, the Kuramoto–Sivashinsky equation in the chaotic regime, and the Navier–Stokes equations. To the best of our knowledge, this is the first time that PINNs have been successful in simulating such systems, introducing new opportunities for their applicability to problems of industrial complexity."
+
+
+# WELCOME TO PINA -- Last Lecture of Today 
+
+[Documentation](https://mathlab.github.io/PINA/)
+
+Label tensors when working with PINNs because you may want to keep track of specific features; else, it's okay to use regular networks. 
+
+
 
 # GLOBAL
 
@@ -163,7 +213,8 @@ Physics-Informed DeepONet:: VERY USEFUL WHEN THERE'S LITTLE DATA BUT YOU KNOW TH
     * Neural Architecture Search: Insights from 1000 Papers: [arXiv:2301.08727](https://arxiv.org/abs/2301.08727)
     * Federated Neural Architecture Search with Model-Agnostic Meta Learning [arXiv:2504.06457](https://arxiv.org/abs/2504.06457)
     * LAMANAS: loss agnostic and model agnostic meta neural architecture search for few shot learning [link](https://cs229.stanford.edu/proj2021spr/report2/82285254.pdf)
-
+* It is a very bad idea to try to force a neural network to a small value.
+* Point-wise inequalities are difficult to achieve in PINNs, and they may required for solving PDEs  with multiple solutions. 
 
 **GLOBAL QUESTIONS**
 
@@ -175,4 +226,6 @@ Physics-Informed DeepONet:: VERY USEFUL WHEN THERE'S LITTLE DATA BUT YOU KNOW TH
 
 * **EXPLAIN WHY** ReLu is bad for PINNs, especially if there's a second derivative to be addressed. 
 
+* What about interpretability in PINNs? SHAP values? 
 
+* Transfer learning vs curriculum learning. 
