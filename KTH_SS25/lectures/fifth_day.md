@@ -55,7 +55,6 @@ Content:
 
 ### A PINN from Scratch with PyTorch
 
-
 BENCHMARK PROBLEM: Poisson on the Unit Square, 2-Dimensional. 
 
 * Governing PDE: $\nabla^2u(x,y) = sin(2\pi x)\cdot sin(2\pi y)$
@@ -102,33 +101,78 @@ From the shared image, the functions `mul`, `mm`, and `tanh_backward` are the on
 
 Does `jax` have something similar to this? `Tensorflow`? `NumPy`?  
 
-**REMARK**: CPU are not good at calculating tanh, unlike GPUs, which are better prepared. 
+* **ESTIMATE THE VARIANCE OF YOUR RESULT**
+
+**local REMARK**: CPU are not good at calculating tanh, unlike GPUs, which are better prepared. 
 
 MAIN TAKE AWAY from Dr. Markidis: do not stop at your intuition, make a structural approach as how you will analize and justify your optimization. 
 
 
 
+Research Document: [Data-centric Engineering: integrating simulation, machine learning and statistics. Challenges and opportunities](https://www.sciencedirect.com/science/article/pii/S0009250921008368)
+
+Highlights
+* Overview of bottlenecks in update of AI and ML in traditional engineering.
+* Overview of the current approaches to integration of data, models, and AL/ML.
+* Perspectives on emerging research areas at the nexus of simulations, statistics, and AI/ML.
+* Future challenges.
+
+
+# DEEP LEARNING FOR SCIENTIST AND ENGINEERS
+## Neural Operators, DeepONets, K. Shukla.
+
+So, what is a NN? A function --> that learns a function. Can we learn functionals? 
+
+### Can Neural Networks Approximate Functionals? :: LSTM
+
+Theorem available to design NN-operatpr architectures.
+
+
+#### REFERENCES
+* [Approximations of continuous functionals by neural networks with application to dynamic systems](https://ieeexplore.ieee.org/document/286886) Hard to get. 
+* **DeepOperator Network (DeepONet)**
+    * [DeepONet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators](https://arxiv.org/abs/1910.03193)
+        * So, I was wondering about the size of $x$ te create $sin(x)$. 
+
+* How do you implement production level DeepONet algorithms? 
+
+For each epoch, you run each batch? Get rid of for loops and noise in the gradient is reduced (?)
+
+* It is even possible to leanr fractional differential operators. Usually, fractional operations are used when you have a memory in the system. The current point of analysis, depends on the previous state of stress, so analyses rely on convolutions. 
+    * An example is the study of blood in veins / arteries (blood is both newtonian and non-newtonian fluid, thepending on the size of the artery.)
+
+**BUBBLE EXAMPLE**: the ouput of the deeponet is a time-series data (if I understood correctly). 
+
+Graph neural networksto learn data from MD simulations to the use as input. 
+* HERE YOU WILL FIND THE REFERENCE OF THIS TYPE OF INPUT DATA
+    * [A seamless multiscale operator neural network for inferring bubble dynamics](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/seamless-multiscale-operator-neural-network-for-inferring-bubble-dynamics/D516AB0EF954D0FF56AD864DB2618E94): uses MD simulations
+
+![DeepONet](DeepONet.png)
+
+#### PHYSICS-INFORMED DEEPONET
+Physics-Informed DeepONet:: VERY USEFUL WHEN THERE'S LITTLE DATA BUT YOU KNOW THE PHYSICS. 
 
 
 
+# GLOBAL
 
-
-
-
-
-
-
-
-
-
-
-
-**REMARKS**
+**GLOBAL REMARKS AND KEYWORDS**
 
 * Remember that you can also have a look at the different induced errors/ uncertainty: numerical, random, epistemic, etc. 
+* Neural Architecture Search
+    * Neural Architecture Search: Insights from 1000 Papers: [arXiv:2301.08727](https://arxiv.org/abs/2301.08727)
+    * Federated Neural Architecture Search with Model-Agnostic Meta Learning [arXiv:2504.06457](https://arxiv.org/abs/2504.06457)
+    * LAMANAS: loss agnostic and model agnostic meta neural architecture search for few shot learning [link](https://cs229.stanford.edu/proj2021spr/report2/82285254.pdf)
 
 
-**QUESTIONS**
+**GLOBAL QUESTIONS**
 
 * What are collocation points in these contexts?
 * What is a surrogate model? 
+* Why use batches? Memory comsumption + randomization (for faster convergence). 
+    * How do you compare batches with CV? 
+* What is the Gibbs phenomena and how does it relates to the numerical stability of solvers? 
+
+* **EXPLAIN WHY** ReLu is bad for PINNs, especially if there's a second derivative to be addressed. 
+
+
