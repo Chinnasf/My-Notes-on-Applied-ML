@@ -55,3 +55,10 @@ Here's how people approach this: ensembles (like random forests).
 Ensemble combine multiple neural networks to produce uncertainty estimates by capturing variations across model weights. But, why can we think of ensambles as Bayesian inference? 
 
 Bayesian models average assumes that one paameter setting is correct, and averages over models due to an uncertainty ... HAVE A LOOK AT THE SLIDES.
+
+## MOST IMPORTANT RESOURCES 
+
+* [Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://proceedings.mlr.press/v48/gal16.html)
+    * [https://proceedings.mlr.press/](https://proceedings.mlr.press/)
+
+* [Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://arxiv.org/abs/1506.02142)
