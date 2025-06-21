@@ -172,3 +172,18 @@ This is his paper
 **Weisfeiler–Lehman goes dynamic: An analysis of the expressive power of Graph Neural Networks for attributed and dynamic graphs**[ELSEVIER](https://www.sciencedirect.com/science/article/pii/S0893608024001370)
 
 **On the approximation capability of GNNs in node classification/regression tasks**: [Springer](https://link.springer.com/article/10.1007/s00500-024-09676-1)
+
+### PHYSICS-INFORMED GNN
+
+* Physics-Informed Graph Convolutional Networks: Towards a generalized framework for complex geometries [arXiv:2310.14948](https://arxiv.org/abs/2310.14948)
+* Physics-informed graph neural network for spatial-temporal production forecasting [ELSEVIER](https://www.sciencedirect.com/science/article/pii/S2949891023000726)
+* PI-GNN: Physics-Informed Graph Neural Network for Super-Resolution of 4D Flow MRI [IEEE Xplore](https://ieeexplore.ieee.org/document/10635128)
+
+### GNN OPERATOR
+
+* Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Neural operator: Graph kernel network for partial differential equations. arXiv preprint [arXiv:2003.03485](https://arxiv.org/abs/2003.03485).
+
+## TUTORIAL COURSE:
+
+* Book: [Graph Representation Learning](https://cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf), by William L. Hamilton. 
+* [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
