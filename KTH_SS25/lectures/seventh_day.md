@@ -82,3 +82,58 @@ GPUs use their clock to generate their random number, so if you work with parall
 
 
 However, it must be that the sensitivity of the parameters should not impact vastly.  
+
+[Getting Started with Distributed Data Parallel](https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html)
+
+[Data Parallelism](https://www.sciencedirect.com/topics/computer-science/data-parallelism)
+
+# GRAPH NEURAL NETWORK
+
+Laplacian graph: graph laplacian spectral analysis yields many information about the structure of a graph, z.B.: the eigenvectors, eigenvalues, partitian in communities.
+
+Graph Neural Networks (GNNs) are a type of deep learning model designed to work with data represented as graphs. Unlike traditional neural networks that operate on vectors or sequences, GNNs can process data with complex relationships and interconnections between entities. This makes them particularly well-suited for analyzing social networks, knowledge graphs, molecular structures, and other graph-structured data. 
+
+Key Concepts:
+
+* Graphs:
+    * A graph consists of nodes (representing entities) and edges (representing relationships between entities). 
+* Message Passing:
+    * GNNs learn by passing messages between neighboring nodes, aggregating information from their connections. 
+* Node Embeddings:
+    * GNNs learn to represent each node in the graph with a vector (embedding) that captures its features and relationships to other nodes. 
+* Graph Embeddings:
+    * GNNs can also learn embeddings for entire graphs, which can be used for graph-level tasks like classifying molecules or predicting social network behavior. 
+* How they work:
+    1. Input:
+        * A graph (nodes and edges) and potentially node features (information about each entity). 
+    2. Message Passing:
+        * Each node aggregates information from its neighbors, updating its own representation. 
+    3. Aggregation:
+        * The aggregated information is combined with the node's own features to create a new representation for that node. 
+    4. Iteration:
+        * This process of message passing and aggregation is repeated over multiple layers in the GNN, allowing information to propagate through the graph. 
+    5. Output:
+    * The final node embeddings can be used for various tasks, such as:
+* Node classification: Predicting the category or label of a node. 
+* Link prediction: Predicting the existence of a connection between two nodes. 
+* Graph classification: Classifying the entire graph based on its structure and node properties. 
+
+Examples of Applications:
+
+* Social Network Analysis: Predicting user behavior, recommending friends, understanding community structures. 
+* Knowledge Graphs: Reasoning about facts and relationships in knowledge bases, answering complex questions. 
+* Recommender Systems: Suggesting items to users based on their preferences and the preferences of similar users. 
+* Drug Discovery: Predicting the properties of molecules, designing new drugs. 
+* Materials Science: Predicting the properties of materials, designing new materials with desired characteristics. 
+* Recommendation Systems: Suggesting relevant items (e.g., movies, products) to users based on their past interactions and the interactions of similar users. 
+* Fraud Detection: Identifying fraudulent transactions in financial networks. 
+* Traffic Prediction: Predicting traffic flow and optimizing routes. 
+
+Benefits of GNNs:
+
+* Ability to handle complex relationships:
+    * GNNs can capture the intricate connections between entities in a graph, which is not possible with traditional neural networks. 
+* Scalability:
+    * GNNs can be applied to large graphs with millions or even billions of nodes and edges. 
+* Flexibility:
+    * GNNs can be adapted to different types of graphs and tasks by modifying the message passing and aggregation functions. 
