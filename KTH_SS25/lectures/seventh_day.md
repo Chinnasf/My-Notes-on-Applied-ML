@@ -137,3 +137,38 @@ Benefits of GNNs:
     * GNNs can be applied to large graphs with millions or even billions of nodes and edges. 
 * Flexibility:
     * GNNs can be adapted to different types of graphs and tasks by modifying the message passing and aggregation functions. 
+
+* TWO MAIN LIMITATIONS
+    * Oversmoothing: property of color, homogeneus information. 
+    * Oversqashing: a kind of a bottle-neck information passing.
+
+## Python Implementation 
+
+Have a look at 
+
+* PyG: [Pytorch Geometry](https://pytorch-geometric.readthedocs.io/en/latest/)
+* DGL: [Deep Graph Library](https://www.dgl.ai/)
+    * It has a database where you can find thousands of published research paper: [Official DGL Examples and Modules](https://github.com/dmlc/dgl/blob/master/examples/README.md#dgcnnpoint)
+* [Jraph](https://github.com/google-deepmind/jraph) - A library for graph neural networks in jax.
+    * [API](https://jraph.readthedocs.io/en/latest/api.html#models)
+    * It is horrible haha but there are not many out there.
+* [Tensorflow GNN](https://github.com/tensorflow/gnn/tree/main)
+    * [Getting Started with TF-GNN with Python](https://medium.com/@techtes.com/getting-started-with-tf-gnn-with-python-26d8e341db05)
+* [GNNKeras](https://github.com/NickDrake117/GNNkeras)
+    * [GNNkeras: A Keras-based library for Graph Neural Networks and homogeneous and heterogeneous graph processing](https://www.sciencedirect.com/science/article/pii/S2352711022000486)
+
+Look at the tutorial `1_introduction.ipynb`. 
+
+## RELEVANT RESOURCES
+
+**The Expressive Power of Graph Neural Networks: A Survey**[arXiv:2308.08235](https://arxiv.org/abs/2308.08235)
+
+**Weisfeiler-Lehman goes Dynamic: An Analysis of the Expressive Power of Graph Neural Networks for Attributed and Dynamic Graphs**: [arXiv:2210.03990](https://arxiv.org/abs/2210.03990)
+
+**Expressive power of graph neural networks and the Weisfeiler-Lehman test**: [Towards Data Science](https://towardsdatascience.com/expressive-power-of-graph-neural-networks-and-the-weisfeiler-lehman-test-666b9e17585b/)
+
+This is his paper 
+
+**Weisfeiler–Lehman goes dynamic: An analysis of the expressive power of Graph Neural Networks for attributed and dynamic graphs**[ELSEVIER](https://www.sciencedirect.com/science/article/pii/S0893608024001370)
+
+**On the approximation capability of GNNs in node classification/regression tasks**: [Springer](https://link.springer.com/article/10.1007/s00500-024-09676-1)
